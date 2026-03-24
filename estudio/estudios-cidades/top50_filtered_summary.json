@@ -1,0 +1,452 @@
+[
+  {
+    "title": "Foto Ricardo",
+    "rating": 4.7,
+    "reviews": 502,
+    "type": "Photography studio",
+    "phone": "+55 48 98482-0598",
+    "website": "https://m.facebook.com/fotoricardo.com.br",
+    "cidade": "Biguaçu"
+  },
+  {
+    "title": "Alonso Fotografia - Estúdio Fotográfico",
+    "rating": 5,
+    "reviews": 369,
+    "type": "Portrait studio",
+    "phone": "+55 48 99823-0020",
+    "website": "https://alonsofotografia.com.br/",
+    "cidade": "São José"
+  },
+  {
+    "title": "Marlisa Fotos",
+    "rating": 4.4,
+    "reviews": 315,
+    "type": "Photography studio",
+    "phone": "+55 47 99923-2227",
+    "website": "http://www.marlisa.com.br/",
+    "cidade": "São Bento do Sul"
+  },
+  {
+    "title": "Stylo Life Studio",
+    "rating": 4.8,
+    "reviews": 291,
+    "type": "Beauty salon",
+    "phone": "+55 48 99924-9464",
+    "website": "https://www.facebook.com/stylolifestudio/",
+    "cidade": "Araranguá"
+  },
+  {
+    "title": "Foto Julius",
+    "rating": 4.6,
+    "reviews": 260,
+    "type": "Portrait studio",
+    "phone": "+55 47 3324-1737",
+    "website": "http://www.fotojulius.com.br/",
+    "cidade": "Blumenau"
+  },
+  {
+    "title": "AeroTullio Sound Distillery",
+    "rating": 4.9,
+    "reviews": 242,
+    "type": "Recording studio",
+    "phone": "+55 48 98842-5669",
+    "website": "https://www.aerotullio.com/",
+    "cidade": "Florianópolis"
+  },
+  {
+    "title": "Meteoro Estúdio",
+    "rating": 4.9,
+    "reviews": 237,
+    "type": "Rehearsal studio",
+    "phone": "+55 48 99987-1012",
+    "website": "http://instagram.com/meteoroestudio",
+    "cidade": "Criciúma"
+  },
+  {
+    "title": "FB Fotografias",
+    "rating": 4.7,
+    "reviews": 236,
+    "type": "Photography studio",
+    "phone": "+55 47 98406-4192",
+    "website": "https://www.facebook.com/FB-FOTOGRAFIAS-217754231578727/",
+    "cidade": "Jaraguá do Sul"
+  },
+  {
+    "title": "Carlos Suzuki Fotografias",
+    "rating": 5,
+    "reviews": 225,
+    "type": "Photography studio",
+    "phone": "+55 49 98438-6099",
+    "website": "http://www.suzukifotos.com.br/",
+    "cidade": "Curitibanos"
+  },
+  {
+    "title": "Vic Color Fotografia - Caçador",
+    "rating": 4.3,
+    "reviews": 199,
+    "type": "Portrait studio",
+    "phone": "+55 49 3567-5330",
+    "website": "http://www.vicolor.com.br/",
+    "cidade": "Caçador"
+  },
+  {
+    "title": "Foto Central",
+    "rating": 4.6,
+    "reviews": 199,
+    "type": "Portrait studio",
+    "phone": "+55 47 3387-6551",
+    "website": "",
+    "cidade": "Indaial"
+  },
+  {
+    "title": "Estúdio Mário Lima",
+    "rating": 5,
+    "reviews": 192,
+    "type": "Recording studio",
+    "phone": "+55 47 99984-0264",
+    "website": "http://estudiomariolima.com/?utm_source=gmb&utm_medium=referral",
+    "cidade": "Joinville"
+  },
+  {
+    "title": "Impulse Studio | Locação de estúdios",
+    "rating": 5,
+    "reviews": 192,
+    "type": "Photography studio",
+    "phone": "+55 48 98815-7772",
+    "website": "https://impulseestudio.com.br/",
+    "cidade": "Palhoça"
+  },
+  {
+    "title": "Tiaraju Estúdio, Foto e Vídeo",
+    "rating": 5,
+    "reviews": 192,
+    "type": "Photography studio",
+    "phone": "+55 47 99760-7127",
+    "website": "https://www.tiarajuestudio.com/",
+    "cidade": "Camboriú"
+  },
+  {
+    "title": "Tania Bauer Fotografia",
+    "rating": 5,
+    "reviews": 189,
+    "type": "Portrait studio",
+    "phone": "+55 47 99986-6618",
+    "website": "http://www.taniabauer.com/",
+    "cidade": "São Bento do Sul"
+  },
+  {
+    "title": "Sueli Fotografias",
+    "rating": 5,
+    "reviews": 188,
+    "type": "Photography studio",
+    "phone": "+55 47 98824-7891",
+    "website": "",
+    "cidade": "Indaial"
+  },
+  {
+    "title": "Estúdio Dois A",
+    "rating": 5,
+    "reviews": 184,
+    "type": "Portrait studio",
+    "phone": "+55 47 99908-9570",
+    "website": "http://www.estudiodoisa.com.br/",
+    "cidade": "Itajaí"
+  },
+  {
+    "title": "Studio Stein",
+    "rating": 5,
+    "reviews": 176,
+    "type": "Beauty salon",
+    "phone": "+55 48 99170-6868",
+    "website": "",
+    "cidade": "Tijucas"
+  },
+  {
+    "title": "Eberson Teodoro Estúdio e Escola de Fotografia",
+    "rating": 5,
+    "reviews": 171,
+    "type": "Photographer",
+    "phone": "+55 47 98434-4098",
+    "website": "https://ebersonteodoro.com.br/",
+    "cidade": "Araquari"
+  },
+  {
+    "title": "Charane Fotografias São Bento do Sul",
+    "rating": 5,
+    "reviews": 157,
+    "type": "Photography studio",
+    "phone": "+55 47 99169-8513",
+    "website": "https://www.instagram.com/fernandacharane/",
+    "cidade": "São Bento do Sul"
+  },
+  {
+    "title": "Silver Tape Studio",
+    "rating": 4.9,
+    "reviews": 152,
+    "type": "Recording studio",
+    "phone": "+55 47 99111-3303",
+    "website": "http://www.silvertapestudio.com.br/",
+    "cidade": "Balneário Camboriú"
+  },
+  {
+    "title": "Cardoso Fotografias",
+    "rating": 4.6,
+    "reviews": 151,
+    "type": "Portrait studio",
+    "phone": "+55 47 99952-4777",
+    "website": "http://www.cardosofotografias.com.br/",
+    "cidade": "Indaial"
+  },
+  {
+    "title": "Naysa Cardoso Fotografia - Newborn - Gestante - Família - Infantil- Acompanhamento mensal- Feminino e Eventos",
+    "rating": 5,
+    "reviews": 146,
+    "type": "Photographer",
+    "phone": "+55 47 99632-0278",
+    "website": "https://www.instagram.com/naysacardosofotografia/",
+    "cidade": "Gaspar"
+  },
+  {
+    "title": "Arthur Manson Photo Studio - Fotógrafo Navegantes",
+    "rating": 4.9,
+    "reviews": 140,
+    "type": "Photographer",
+    "phone": "+55 47 99758-0727",
+    "website": "http://www.arthurmanson.com.br/",
+    "cidade": "Itajaí"
+  },
+  {
+    "title": "Prime Estúdio",
+    "rating": 5,
+    "reviews": 129,
+    "type": "Recording studio",
+    "phone": "+55 47 99966-7457",
+    "website": "http://www.primeestudio.com/",
+    "cidade": "Joinville"
+  },
+  {
+    "title": "Estúdio Toca Records",
+    "rating": 4.9,
+    "reviews": 126,
+    "type": "Recording studio",
+    "phone": "+55 47 99141-6132",
+    "website": "",
+    "cidade": "Joinville"
+  },
+  {
+    "title": "Hd' Music Studio",
+    "rating": 5,
+    "reviews": 125,
+    "type": "Recording studio",
+    "phone": "+55 48 98829-0964",
+    "website": "http://www.hdmusicstudio.com.br/",
+    "cidade": "Florianópolis"
+  },
+  {
+    "title": "Charles Mafra Fotografia",
+    "rating": 5,
+    "reviews": 125,
+    "type": "Photographer",
+    "phone": "+55 47 98857-1673",
+    "website": "http://www.charlesmafra.com.br/",
+    "cidade": "Brusque"
+  },
+  {
+    "title": "Café Maestro Productions",
+    "rating": 4.8,
+    "reviews": 122,
+    "type": "Recording studio",
+    "phone": "+55 47 99147-6016",
+    "website": "http://www.cafemaestro.com.br/",
+    "cidade": "Itajaí"
+  },
+  {
+    "title": "Pin Up Studio Fotográfico",
+    "rating": 4.7,
+    "reviews": 119,
+    "type": "Photography studio",
+    "phone": "+55 48 3025-5467",
+    "website": "https://instagram.com/pinupstudiofotografico",
+    "cidade": "Palhoça"
+  },
+  {
+    "title": "Sttudio A Cabeleireiros",
+    "rating": 4.8,
+    "reviews": 119,
+    "type": "Beauty salon",
+    "phone": "+55 47 3521-1435",
+    "website": "https://www.facebook.com/sttudioacabeleireiros/",
+    "cidade": "Rio do Sul"
+  },
+  {
+    "title": "Luciana Natalia Fotografias",
+    "rating": 4.8,
+    "reviews": 118,
+    "type": "Photographer",
+    "phone": "+351 912 489 090",
+    "website": "http://www.luciananatalia.com.br/",
+    "cidade": "Chapecó"
+  },
+  {
+    "title": "Foco Fotografias",
+    "rating": 4.7,
+    "reviews": 117,
+    "type": "Portrait studio",
+    "phone": "+55 49 99158-5453",
+    "website": "",
+    "cidade": "Chapecó"
+  },
+  {
+    "title": "PS Photoart Estúdio Fotográfico",
+    "rating": 4.9,
+    "reviews": 116,
+    "type": "Photography studio",
+    "phone": "+55 47 98926-2019",
+    "website": "http://www.psphotoart.com.br/",
+    "cidade": "Brusque"
+  },
+  {
+    "title": "Deh Concept | Barbearia e Salão de Beleza em Caçador",
+    "rating": 5,
+    "reviews": 115,
+    "type": "Beauty salon",
+    "phone": "+55 49 99165-7317",
+    "website": "https://sites.appbarber.com.br/dehconcept",
+    "cidade": "Caçador"
+  },
+  {
+    "title": "Ferreira e Maciel - Fotografia e Filme de Casamento e Família.",
+    "rating": 5,
+    "reviews": 115,
+    "type": "Portrait studio",
+    "phone": "+55 48 99953-1363",
+    "website": "https://www.ferreiraemaciel.com.br/",
+    "cidade": "Araranguá"
+  },
+  {
+    "title": "Studio 74",
+    "rating": 4.8,
+    "reviews": 109,
+    "type": "Recording studio",
+    "phone": "+55 48 99995-4243",
+    "website": "https://www.studiomusical74.com/",
+    "cidade": "Florianópolis"
+  },
+  {
+    "title": "Foto Gilmar",
+    "rating": 4.9,
+    "reviews": 109,
+    "type": "Portrait studio",
+    "phone": "+55 47 99977-9181",
+    "website": "http://fotogilmar.com/?utm_source=gmb&utm_medium=referral",
+    "cidade": "Tijucas"
+  },
+  {
+    "title": "Estúdio Dr. Amadeu | PODCAST & SNACKS",
+    "rating": 5,
+    "reviews": 107,
+    "type": "Recording studio",
+    "phone": "+55 47 99271-8219",
+    "website": "https://estudiodramadeu.com/",
+    "cidade": "Blumenau"
+  },
+  {
+    "title": "Evydência",
+    "rating": 4.7,
+    "reviews": 107,
+    "type": "Photography studio",
+    "phone": "+55 48 99642-5287",
+    "website": "https://evydencia.com/cadastro",
+    "cidade": "Tijucas"
+  },
+  {
+    "title": "STUDIO L CONCEPT",
+    "rating": 4.8,
+    "reviews": 105,
+    "type": "Beauty salon",
+    "phone": "+55 49 3331-2242",
+    "website": "http://studiolconcept.com.br/",
+    "cidade": "Chapecó"
+  },
+  {
+    "title": "Estúdio Alegrar - Fotografia",
+    "rating": 4.8,
+    "reviews": 105,
+    "type": "Portrait studio",
+    "phone": "+55 47 99670-7704",
+    "website": "http://www.estudioalegrar.com.br/",
+    "cidade": "Balneário Camboriú"
+  },
+  {
+    "title": "Cleópatra Carrere",
+    "rating": 5,
+    "reviews": 104,
+    "type": "Portrait studio",
+    "phone": "+55 47 99733-7647",
+    "website": "https://studiocleopatracarrere.myportfolio.com/",
+    "cidade": "Camboriú"
+  },
+  {
+    "title": "Ana Flávia Fotografias",
+    "rating": 5,
+    "reviews": 101,
+    "type": "Photographer",
+    "phone": "+55 47 98855-5690",
+    "website": "http://www.anaflaviafotografafamilia.com.br/",
+    "cidade": "Indaial"
+  },
+  {
+    "title": "Estúdio Amentar - fotografia de gestantes, newborn, bebês e famílias.",
+    "rating": 4.9,
+    "reviews": 100,
+    "type": "Portrait studio",
+    "phone": "+55 47 98857-7356",
+    "website": "https://www.estudioamentar.com.br/",
+    "cidade": "Jaraguá do Sul"
+  },
+  {
+    "title": "Estúdio Fotográfico Daiane Raupp",
+    "rating": 4.9,
+    "reviews": 98,
+    "type": "Portrait studio",
+    "phone": "+55 47 99944-0933",
+    "website": "http://www.daianerauppfotografia.com.br/",
+    "cidade": "Guaramirim"
+  },
+  {
+    "title": "Bacca - Estúdio e Sonorização",
+    "rating": 5,
+    "reviews": 97,
+    "type": "Recording studio",
+    "phone": "+55 47 99646-2251",
+    "website": "https://www.facebook.com/baccaestudio",
+    "cidade": "Blumenau"
+  },
+  {
+    "title": "Juliane Müller Fotografia",
+    "rating": 5,
+    "reviews": 97,
+    "type": "Photography studio",
+    "phone": "+55 47 99749-7775",
+    "website": "https://www.instagram.com/juliemller_ph?igsh=cGYxMjR4cjF0YWQ1&utm_source=qr",
+    "cidade": "São Bento do Sul"
+  },
+  {
+    "title": "Estúdio Kalina Photoboutique",
+    "rating": 4.9,
+    "reviews": 96,
+    "type": "Portrait studio",
+    "phone": "+55 47 98814-3728",
+    "website": "http://www.estudiokalina.com/",
+    "cidade": "Joinville"
+  },
+  {
+    "title": "DNZ Estúdio Fotográfico | Danilo Zonta Fotografias",
+    "rating": 5,
+    "reviews": 95,
+    "type": "Photographer",
+    "phone": "+55 49 99834-8699",
+    "website": "http://www.danilozonta.com.br/",
+    "cidade": "Chapecó"
+  }
+]

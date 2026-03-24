@@ -1,0 +1,234 @@
+{
+  "timestamp": "2025-09-16T15:40:36.330267",
+  "analise_mercado": {
+    "tamanho_total_mercado": 713,
+    "total_reviews_mercado": 30954,
+    "rating_medio_geral": 4.85,
+    "densidade_media_por_cidade": 17.82,
+    "tipos_mais_comuns": {
+      "Recording studio": 193,
+      "Photography studio": 174,
+      "Portrait studio": 113,
+      "Photographer": 72,
+      "Beauty salon": 28,
+      "Tattoo shop": 10,
+      "Photography service": 9,
+      "Wedding photographer": 6,
+      "Photo lab": 5
+    },
+    "cidades_mais_ativas": {
+      "Joinville": 20,
+      "Florianópolis": 20,
+      "Blumenau": 20,
+      "São José": 20,
+      "Chapecó": 20,
+      "Itajaí": 20,
+      "Criciúma": 20,
+      "Jaraguá do Sul": 20,
+      "Palhoça": 20,
+      "Balneário Camboriú": 20
+    }
+  },
+  "segmentacao_geografica": {
+    "Norte": {
+      "total_estudios": 60,
+      "total_reviews": 2280,
+      "rating_medio": 4.86,
+      "densidade": 15.0
+    },
+    "Vale do Itajaí": {
+      "total_estudios": 180,
+      "total_reviews": 11275,
+      "rating_medio": 4.85,
+      "densidade": 20.0
+    },
+    "Grande Florianópolis": {
+      "total_estudios": 80,
+      "total_reviews": 4975,
+      "rating_medio": 4.87,
+      "densidade": 20.0
+    },
+    "Sul": {
+      "total_estudios": 80,
+      "total_reviews": 2884,
+      "rating_medio": 4.86,
+      "densidade": 20.0
+    },
+    "Oeste": {
+      "total_estudios": 72,
+      "total_reviews": 2176,
+      "rating_medio": 4.77,
+      "densidade": 12.0
+    },
+    "Serra": {
+      "total_estudios": 80,
+      "total_reviews": 2948,
+      "rating_medio": 4.89,
+      "densidade": 20.0
+    }
+  },
+  "performance_competitiva": {
+    "rating_medio_top50": 4.8,
+    "reviews_medio_top50": 242.0,
+    "tipos_top50": {
+      "Portrait studio": 13,
+      "Photography studio": 11,
+      "Recording studio": 11,
+      "Photographer": 4,
+      "Shoe store": 2,
+      "Photo lab": 2,
+      "Beauty salon": 2,
+      "Rehearsal studio": 2,
+      "Barber shop": 1,
+      "Photography service": 1,
+      "Wedding photographer": 1
+    },
+    "cidades_top50": {
+      "Camboriú": 4,
+      "Timbó": 4,
+      "Gaspar": 3,
+      "São Bento do Sul": 3,
+      "Indaial": 3,
+      "Joinville": 3,
+      "Tijucas": 2,
+      "Blumenau": 2,
+      "São José": 2,
+      "Florianópolis": 2,
+      "Palhoça": 2,
+      "Itapema": 2,
+      "Araquari": 2,
+      "Rio Negrinho": 2,
+      "Itajaí": 2,
+      "Balneário Camboriú": 2,
+      "Biguaçu": 1,
+      "Araranguá": 1,
+      "Criciúma": 1,
+      "Içara": 1,
+      "Jaraguá do Sul": 1,
+      "Curitibanos": 1,
+      "Caçador": 1,
+      "Rio do Sul": 1,
+      "Videira": 1,
+      "Navegantes": 1
+    },
+    "websites_top50": 42,
+    "percentual_com_website": 84.0
+  },
+  "oportunidades_negocio": {
+    "cidades_subatendidas": [],
+    "tipos_em_alta": [
+      [
+        "Recording studio",
+        {
+          "quantidade": 193,
+          "rating_medio": 4.94,
+          "score_oportunidade": 952.7181818181818
+        }
+      ],
+      [
+        "Photography studio",
+        {
+          "quantidade": 174,
+          "rating_medio": 4.89,
+          "score_oportunidade": 851.0181818181818
+        }
+      ],
+      [
+        "Portrait studio",
+        {
+          "quantidade": 113,
+          "rating_medio": 4.76,
+          "score_oportunidade": 538.0538461538462
+        }
+      ],
+      [
+        "Photographer",
+        {
+          "quantidade": 72,
+          "rating_medio": 4.95,
+          "score_oportunidade": 356.40000000000003
+        }
+      ],
+      [
+        "Beauty salon",
+        {
+          "quantidade": 28,
+          "rating_medio": 4.9,
+          "score_oportunidade": 137.20000000000002
+        }
+      ]
+    ],
+    "gap_tecnologico": {
+      "estudios_sem_site_proprio_top50": 17,
+      "estudios_com_site_proprio_top50": 33,
+      "estudios_apenas_redes_sociais_top50": 9,
+      "percentual_sem_site_proprio": 34.0,
+      "percentual_com_site_proprio": 66.0,
+      "oportunidade_digital": "Média"
+    },
+    "oportunidades_expansao": []
+  },
+  "tendencias_mercado": {
+    "horarios_funcionamento": {
+      "Comercial": 242,
+      "Fechado": 39,
+      "24h": 21
+    },
+    "concentracao_geografica": {
+      "Norte": {
+        "total_estudios": 60,
+        "percentual_mercado": 8.4
+      },
+      "Vale do Itajaí": {
+        "total_estudios": 180,
+        "percentual_mercado": 25.2
+      },
+      "Grande Florianópolis": {
+        "total_estudios": 80,
+        "percentual_mercado": 11.2
+      },
+      "Sul": {
+        "total_estudios": 80,
+        "percentual_mercado": 11.2
+      },
+      "Oeste": {
+        "total_estudios": 72,
+        "percentual_mercado": 10.1
+      },
+      "Serra": {
+        "total_estudios": 80,
+        "percentual_mercado": 11.2
+      }
+    },
+    "padroes_rating": {
+      "5.0": 23,
+      "4.5-4.9": 21,
+      "4.0-4.4": 4,
+      "3.5-3.9": 2,
+      "<3.5": 0
+    }
+  },
+  "recomendacoes_estrategicas": {
+    "mercados_prioritarios": [],
+    "estrategias_diferencial": [
+      "Foco em serviços 24h para capturar mercado noturno",
+      "Desenvolvimento de presença digital (websites profissionais)",
+      "Especialização em nichos específicos (newborn, casamentos)",
+      "Expansão para cidades com baixa densidade de estúdios",
+      "Implementação de sistema de agendamento online"
+    ],
+    "investimentos_sugeridos": [
+      "Marketing digital e SEO para aumentar visibilidade online",
+      "Equipamentos de última geração para diferenciação técnica",
+      "Treinamento de equipe em atendimento ao cliente",
+      "Sistema de gestão integrado (agendamento, pagamentos)",
+      "Expansão física em mercados prioritários"
+    ],
+    "riscos_mercado": [
+      "Alta concentração em algumas regiões pode indicar saturação",
+      "Dependência de avaliações online para reputação",
+      "Concorrência crescente em cidades principais",
+      "Necessidade de constante atualização tecnológica"
+    ]
+  }
+}

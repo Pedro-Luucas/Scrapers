@@ -1,0 +1,1205 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dashboard - Análise de Mercado de Estúdios SC</title>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            min-height: 100vh;
+            color: #333;
+        }
+
+        .container {
+            max-width: 1400px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+
+        .header {
+            text-align: center;
+            margin-bottom: 30px;
+            color: white;
+        }
+
+        .header h1 {
+            font-size: 2.5rem;
+            margin-bottom: 10px;
+            text-shadow: 2px 2px 4px rgba(0,0,0,0.3);
+        }
+
+        .header p {
+            font-size: 1.1rem;
+            opacity: 0.9;
+        }
+
+        .dashboard-grid {
+            display: grid;
+            grid-template-columns: 1fr;
+            gap: 20px;
+            margin-bottom: 30px;
+        }
+
+        .card {
+            background: white;
+            border-radius: 15px;
+            padding: 25px;
+            box-shadow: 0 10px 30px rgba(0,0,0,0.1);
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+        }
+
+        .card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 15px 40px rgba(0,0,0,0.15);
+        }
+
+        .card h3 {
+            color: #4a5568;
+            margin-bottom: 15px;
+            font-size: 1.3rem;
+            border-bottom: 2px solid #e2e8f0;
+            padding-bottom: 10px;
+        }
+
+        .kpi-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            gap: 20px;
+            margin-bottom: 30px;
+        }
+
+        .kpi-card {
+            background: white;
+            border-radius: 15px;
+            padding: 25px;
+            text-align: center;
+            box-shadow: 0 10px 30px rgba(0,0,0,0.1);
+            transition: transform 0.3s ease;
+        }
+
+        .kpi-card:hover {
+            transform: translateY(-3px);
+        }
+
+        .kpi-value {
+            font-size: 2.5rem;
+            font-weight: bold;
+            color: #667eea;
+            margin-bottom: 10px;
+        }
+
+        .kpi-label {
+            color: #718096;
+            font-size: 1rem;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+        }
+
+        .filters {
+            background: white;
+            border-radius: 15px;
+            padding: 25px;
+            margin-bottom: 30px;
+            box-shadow: 0 10px 30px rgba(0,0,0,0.1);
+        }
+
+        .filters h3 {
+            margin-bottom: 20px;
+            color: #4a5568;
+        }
+
+        .filter-row {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            gap: 15px;
+            margin-bottom: 15px;
+        }
+
+        .telefone{
+            background-color: #f7f7f7;
+        }
+
+        .filter-group {
+            display: flex;
+            flex-direction: column;
+        }
+
+        .filter-group label {
+            margin-bottom: 5px;
+            color: #4a5568;
+            font-weight: 500;
+        }
+
+        .filter-group select,
+        .filter-group input {
+            padding: 10px;
+            border: 2px solid #e2e8f0;
+            border-radius: 8px;
+            font-size: 1rem;
+            transition: border-color 0.3s ease;
+        }
+
+        .filter-group select:focus,
+        .filter-group input:focus {
+            outline: none;
+            border-color: #667eea;
+        }
+
+        .chart-container {
+            position: relative;
+            height: 400px;
+            margin-bottom: 20px;
+        }
+
+        .table-container {
+            overflow-x: auto;
+            border-radius: 10px;
+            box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+        }
+
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            background: white;
+            table-layout: fixed;
+        }
+
+        th, td {
+            padding: 15px 12px;
+            text-align: left;
+            border-bottom: 1px solid #e2e8f0;
+            word-wrap: break-word;
+            overflow-wrap: break-word;
+        }
+
+        /* Espaçamento uniforme entre colunas */
+        th:nth-child(1), td:nth-child(1) { width: 20%; } /* Nome */
+        th:nth-child(2), td:nth-child(2) { width: 12%; } /* Cidade */
+        th:nth-child(3), td:nth-child(3) { width: 15%; } /* Tipo */
+        th:nth-child(4), td:nth-child(4) { width: 8%; }  /* Rating */
+        th:nth-child(5), td:nth-child(5) { width: 8%; }  /* Reviews */
+        th:nth-child(6), td:nth-child(6) { width: 20%; } /* Website */
+        th:nth-child(7), td:nth-child(7) { width: 17%; } /* Telefone */
+
+        th {
+            background: #f7fafc;
+            font-weight: 600;
+            color: #4a5568;
+            text-transform: uppercase;
+            font-size: 0.9rem;
+            letter-spacing: 0.5px;
+        }
+
+        tr:hover {
+            background: #f7fafc;
+        }
+
+        table a {
+            color: #667eea;
+            text-decoration: none;
+            font-size: 0.9rem;
+            word-break: break-all;
+            display: inline-block;
+            max-width: 100%;
+            overflow: hidden;
+            text-overflow: ellipsis;
+            white-space: nowrap;
+        }
+
+        table a:hover {
+            text-decoration: underline;
+            color: #5a67d8;
+        }
+
+        .rating {
+            display: inline-block;
+            padding: 4px 8px;
+            border-radius: 20px;
+            font-weight: bold;
+            font-size: 0.9rem;
+        }
+
+        .rating.excellent {
+            background: #c6f6d5;
+            color: #22543d;
+        }
+
+        .meteoro {
+            
+            background: #bcff05;
+            color: #000000;
+        
+        }
+        .rating.good {
+            background: #bee3f8;
+            color: #2a4365;
+        }
+
+        .rating.average {
+            background: #fef5e7;
+            color: #744210;
+        }
+
+        .stats-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+            gap: 15px;
+            margin-top: 15px;
+        }
+
+        .stat-item {
+            text-align: center;
+            padding: 15px;
+            background: #f7fafc;
+            border-radius: 10px;
+        }
+
+        .stat-value {
+            font-size: 1.5rem;
+            font-weight: bold;
+            color: #667eea;
+        }
+
+        .stat-label {
+            color: #718096;
+            font-size: 0.9rem;
+        }
+
+        @media (max-width: 768px) {
+            .container {
+                padding: 10px;
+            }
+            
+            .header h1 {
+                font-size: 2rem;
+            }
+            
+            .dashboard-grid {
+                grid-template-columns: 1fr;
+            }
+            
+            .kpi-grid {
+                grid-template-columns: repeat(2, 1fr);
+            }
+            
+            .filter-row {
+                grid-template-columns: 1fr;
+            }
+            
+            .chart-container {
+                height: 300px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <h1>📊 Dashboard de Análise de Mercado</h1>
+            <p>Estúdios de Ensaio em Santa Catarina - Análise Completa</p>
+        </div>
+
+        <!-- KPIs Principais -->
+        <div class="kpi-grid">
+            <div class="kpi-card">
+                <div class="kpi-value">713</div>
+                <div class="kpi-label">Total de Estúdios</div>
+            </div>
+            <div class="kpi-card">
+                <div class="kpi-value">4.85</div>
+                <div class="kpi-label">Rating Médio</div>
+            </div>
+            <div class="kpi-card">
+                <div class="kpi-value">30.954</div>
+                <div class="kpi-label">Total de Reviews</div>
+            </div>
+        </div>
+
+
+
+        <!-- Dashboard Grid -->
+        <div class="dashboard-grid">
+            <!-- Presença Digital -->
+            <div class="card">
+                <h3>🌐 Presença Digital dos Estúdios</h3>
+                <div class="chart-container">
+                    <canvas id="businessTypesChart"></canvas>
+                </div>
+                <div class="stats-grid">
+                    <div class="stat-item">
+                        <div class="stat-value">441</div>
+                        <div class="stat-label">Com Website</div>
+                    </div>
+                    <div class="stat-item">
+                        <div class="stat-value">272</div>
+                        <div class="stat-label">Sem Website</div>
+                    </div>
+                    <div class="stat-item">
+                        <div class="stat-value">61.9%</div>
+                        <div class="stat-label">Penetração Digital</div>
+                    </div>
+                    <div class="stat-item">
+                        <div class="stat-value">38.1%</div>
+                        <div class="stat-label">Sem Presença Digital</div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Tipos Mais Comuns -->
+            <div class="card">
+                <h3>📊 Tipos Mais Comuns de Estúdio</h3>
+                <div class="chart-container">
+                    <canvas id="regionalChart"></canvas>
+                </div>
+                <div class="stats-grid">
+                    <div class="stat-item">
+                        <div class="stat-value">359</div>
+                        <div class="stat-label">Photography Studio</div>
+                    </div>
+                    <div class="stat-item">
+                        <div class="stat-value">193</div>
+                        <div class="stat-label">Recording Studio</div>
+                    </div>
+                    <div class="stat-item">
+                        <div class="stat-value">28</div>
+                        <div class="stat-label">Beauty Salon</div>
+                    </div>
+                    <div class="stat-item">
+                        <div class="stat-value">10</div>
+                        <div class="stat-label">Tattoo Shop</div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Segmentação Geográfica -->
+            <div class="card">
+                <h3>🗺️ Análise Geográfica por Região</h3>
+                <div class="chart-container">
+                    <canvas id="performanceChart"></canvas>
+                </div>
+                <div class="stats-grid">
+                    <div class="stat-item">
+                        <div class="stat-value">11.275</div>
+                        <div class="stat-label">Reviews Vale do Itajaí</div>
+                    </div>
+                    <div class="stat-item">
+                        <div class="stat-value">4.89</div>
+                        <div class="stat-label">Rating Médio</div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+        <!-- Tabela de Dados -->
+        <div class="card">
+            <h3>📋 Top 50 Estúdios SC - Dados Reais</h3>
+            <div class="table-container">
+                <table id="studiosTable">
+                    <thead>
+                        <tr>
+                            <th>Nome</th>
+                            <th>Cidade</th>
+                            <th>Tipo</th>
+                            <th>Rating</th>
+                            <th>Reviews</th>
+                            <th>Website</th>
+                            <th>Telefone</th>
+                        </tr>
+                    </thead>
+                    <tbody id="studiosTableBody">
+                        <!-- Dados serão carregados via JavaScript -->
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        // Dados dos JSONs (serão carregados aqui)
+        const businessInsights = {
+            "mercado_total": {
+                "tamanho": 713,
+                "cidades_cobertas": 40,
+                "densidade_media": 17.825
+            },
+            "segmentacao": {
+                "tipos_principais": [
+                    "Recording studio",
+                    "Photography studio", 
+                    "Portrait studio",
+                    "Photographer",
+                    "Beauty salon"
+                ]
+            }
+        };
+
+        const advancedInsights = {
+            "analise_mercado": {
+                "tamanho_total_mercado": 713,
+                "total_reviews_mercado": 30954,
+                "rating_medio_geral": 4.85,
+                "densidade_media_por_cidade": 17.82,
+                "tipos_mais_comuns": {
+                    "Recording studio": 193,
+                    "Photography studio": 174,
+                    "Portrait studio": 113,
+                    "Photographer": 72,
+                    "Beauty salon": 28
+                }
+            },
+            "segmentacao_geografica": {
+                "Norte": {
+                    "total_estudios": 60,
+                    "total_reviews": 2280,
+                    "rating_medio": 4.86,
+                    "densidade": 15.0
+                },
+                "Vale do Itajaí": {
+                    "total_estudios": 180,
+                    "total_reviews": 11275,
+                    "rating_medio": 4.85,
+                    "densidade": 20.0
+                },
+                "Grande Florianópolis": {
+                    "total_estudios": 80,
+                    "total_reviews": 4975,
+                    "rating_medio": 4.87,
+                    "densidade": 20.0
+                },
+                "Sul": {
+                    "total_estudios": 80,
+                    "total_reviews": 2884,
+                    "rating_medio": 4.86,
+                    "densidade": 20.0
+                },
+                "Oeste": {
+                    "total_estudios": 72,
+                    "total_reviews": 2176,
+                    "rating_medio": 4.77,
+                    "densidade": 12.0
+                },
+                "Serra": {
+                    "total_estudios": 80,
+                    "total_reviews": 2948,
+                    "rating_medio": 4.89,
+                    "densidade": 20.0
+                }
+            },
+            "performance_competitiva": {
+                "rating_medio_top50": 4.8,
+                "reviews_medio_top50": 242.0,
+                "websites_top50": 42,
+                "percentual_com_website": 84.0
+            },
+            "oportunidades_negocio": {
+                "tipos_em_alta": [
+                    ["Recording studio", {"quantidade": 193, "rating_medio": 4.94, "score_oportunidade": 952.7181818181818}],
+                    ["Photography studio", {"quantidade": 174, "rating_medio": 4.89, "score_oportunidade": 851.0181818181818}],
+                    ["Portrait studio", {"quantidade": 113, "rating_medio": 4.76, "score_oportunidade": 538.0538461538462}],
+                    ["Photographer", {"quantidade": 72, "rating_medio": 4.95, "score_oportunidade": 356.40000000000003}],
+                    ["Beauty salon", {"quantidade": 28, "rating_medio": 4.9, "score_oportunidade": 137.20000000000002}]
+                ]
+            }
+        };
+
+        // Dados dos estúdios carregados do JSON
+        let estudiosData = [];
+
+        // Tipos permitidos
+        const allowedTypes = [
+            "Recording studio",
+            "Photography studio", 
+            "Portrait studio",
+            "Beauty salon",
+            "Tattoo shop",
+            "Photographer",
+            "Rehearsal studio"
+        ];
+
+        // Inicializar gráficos
+        function initCharts() {
+            // Gráfico de Website (Pizza)
+            const websiteCtx = document.getElementById('businessTypesChart').getContext('2d');
+            new Chart(websiteCtx, {
+                type: 'pie',
+                data: {
+                    labels: ['Com Website', 'Sem Website'],
+                    datasets: [{
+                        data: [441, 272], // 441 com website, 272 sem website (713 total)
+                        backgroundColor: [
+                            'rgba(34, 197, 94, 0.8)',
+                            'rgba(239, 68, 68, 0.8)'
+                        ],
+                        borderColor: [
+                            'rgba(34, 197, 94, 1)',
+                            'rgba(239, 68, 68, 1)'
+                        ],
+                        borderWidth: 3,
+                        borderColor: '#fff'
+                    }]
+                },
+                options: {
+                    responsive: true,
+                    maintainAspectRatio: false,
+                    plugins: {
+                        legend: {
+                            position: 'bottom',
+                            labels: {
+                                padding: 20,
+                                usePointStyle: true,
+                                font: {
+                                    size: 14
+                                }
+                            }
+                        },
+                        tooltip: {
+                            callbacks: {
+                                label: function(context) {
+                                    const total = context.dataset.data.reduce((a, b) => a + b, 0);
+                                    const percentage = ((context.parsed / total) * 100).toFixed(1);
+                                    return context.label + ': ' + context.parsed + ' (' + percentage + '%)';
+                                }
+                            }
+                        }
+                    }
+                }
+            });
+
+            // Gráfico de Tipos de Negócio (Barras Horizontais)
+            const businessTypesCtx = document.getElementById('regionalChart').getContext('2d');
+            new Chart(businessTypesCtx, {
+                type: 'bar',
+                data: {
+                    labels: ['Recording Studio', 'Photography Studio', 'Beauty Salon', 'Tattoo Shop'],
+                    datasets: [{
+                        label: 'Quantidade',
+                        data: [193, 359, 28, 10],
+                        backgroundColor: [
+                            'rgba(102, 126, 234, 0.8)',
+                            'rgba(118, 75, 162, 0.8)',
+                            'rgba(255, 99, 132, 0.8)',
+                            'rgba(54, 162, 235, 0.8)'
+                        ],
+                        borderColor: [
+                            'rgba(102, 126, 234, 1)',
+                            'rgba(118, 75, 162, 1)',
+                            'rgba(255, 99, 132, 1)',
+                            'rgba(54, 162, 235, 1)'
+                        ],
+                        borderWidth: 2
+                    }]
+                },
+                options: {
+                    indexAxis: 'y', // Barras horizontais
+                    responsive: true,
+                    maintainAspectRatio: false,
+                    plugins: {
+                        legend: {
+                            display: false
+                        }
+                    },
+                    scales: {
+                        x: {
+                            beginAtZero: true,
+                            grid: {
+                                color: 'rgba(0,0,0,0.1)'
+                            }
+                        },
+                        y: {
+                            grid: {
+                                display: false
+                            }
+
+                        }
+                    }
+                }
+            });
+
+            // Gráfico de Segmentação Geográfica (Barras Horizontais)
+            const geographicCtx = document.getElementById('performanceChart').getContext('2d');
+            new Chart(geographicCtx, {
+                type: 'bar',
+                data: {
+                    labels: ['Vale do Itajaí', 'Grande Florianópolis', 'Sul', 'Serra', 'Norte', 'Oeste'],
+                    datasets: [
+                        {
+                            label: 'Total Reviews',
+                            data: [11275, 4975, 2884, 2948, 2280, 2176],
+                            backgroundColor: 'rgba(102, 126, 234, 0.8)',
+                            borderColor: 'rgba(102, 126, 234, 1)',
+                            borderWidth: 2
+                        }
+                    ]
+                },
+                options: {
+                    indexAxis: 'y', // Barras horizontais
+                    responsive: true,
+                    maintainAspectRatio: false,
+                    plugins: {
+                        legend: {
+                            position: 'top',
+                            labels: {
+                                usePointStyle: true,
+                                padding: 20
+                            }
+                        }
+                    },
+                    scales: {
+                        x: {
+                            beginAtZero: true,
+                            grid: {
+                                color: 'rgba(0,0,0,0.1)'
+                            }
+                        },
+                        y: {
+                            grid: {
+                                display: false
+                            }
+                        }
+                    }
+                }
+            });
+
+        }
+
+
+
+
+        // Carregar dados do JSON
+        async function loadEstudiosData() {
+            try {
+                const response = await fetch('estudio/estudios-cidades/top50_filteredsummary.json');
+                const data = await response.json();
+                
+                // Os dados já estão no formato correto e filtrados
+                estudiosData = data.map(estudio => ({
+                    title: estudio.title,
+                    cidade: estudio.cidade,
+                    type: estudio.type,
+                    rating: estudio.rating,
+                    reviews: estudio.reviews,
+                    website: estudio.website || '',
+                    phone: estudio.phone || ''
+                }));
+                
+                initTable();
+            } catch (error) {
+                console.error('Erro ao carregar dados:', error);
+                // Fallback para dados de exemplo
+                estudiosData = [
+                
+  {
+    "title": "Foto Ricardo",
+    "rating": 4.7,
+    "reviews": 502,
+    "type": "Photography studio",
+    "phone": "+55 48 98482-0598",
+    "website": "https://m.facebook.com/fotoricardo.com.br",
+    "cidade": "Biguaçu"
+  },
+  {
+    "title": "Alonso Fotografia - Estúdio Fotográfico",
+    "rating": 5,
+    "reviews": 369,
+    "type": "Portrait studio",
+    "phone": "+55 48 99823-0020",
+    "website": "https://alonsofotografia.com.br/",
+    "cidade": "São José"
+  },
+  {
+    "title": "Marlisa Fotos",
+    "rating": 4.4,
+    "reviews": 315,
+    "type": "Photography studio",
+    "phone": "+55 47 99923-2227",
+    "website": "http://www.marlisa.com.br/",
+    "cidade": "São Bento do Sul"
+  },
+  {
+    "title": "Stylo Life Studio",
+    "rating": 4.8,
+    "reviews": 291,
+    "type": "Beauty salon",
+    "phone": "+55 48 99924-9464",
+    "website": "https://www.facebook.com/stylolifestudio/",
+    "cidade": "Araranguá"
+  },
+  {
+    "title": "Foto Julius",
+    "rating": 4.6,
+    "reviews": 260,
+    "type": "Portrait studio",
+    "phone": "+55 47 3324-1737",
+    "website": "http://www.fotojulius.com.br/",
+    "cidade": "Blumenau"
+  },
+  {
+    "title": "AeroTullio Sound Distillery",
+    "rating": 4.9,
+    "reviews": 242,
+    "type": "Recording studio",
+    "phone": "+55 48 98842-5669",
+    "website": "https://www.aerotullio.com/",
+    "cidade": "Florianópolis"
+  },
+  {
+    "title": "Meteoro Estúdio",
+    "rating": 4.9,
+    "reviews": 237,
+    "type": "Rehearsal studio",
+    "phone": "+55 48 99987-1012",
+    "website": "http://instagram.com/meteoroestudio",
+    "cidade": "Criciúma"
+  },
+  {
+    "title": "FB Fotografias",
+    "rating": 4.7,
+    "reviews": 236,
+    "type": "Photography studio",
+    "phone": "+55 47 98406-4192",
+    "website": "https://www.facebook.com/FB-FOTOGRAFIAS-217754231578727/",
+    "cidade": "Jaraguá do Sul"
+  },
+  {
+    "title": "Carlos Suzuki Fotografias",
+    "rating": 5,
+    "reviews": 225,
+    "type": "Photography studio",
+    "phone": "+55 49 98438-6099",
+    "website": "http://www.suzukifotos.com.br/",
+    "cidade": "Curitibanos"
+  },
+  {
+    "title": "Vic Color Fotografia - Caçador",
+    "rating": 4.3,
+    "reviews": 199,
+    "type": "Portrait studio",
+    "phone": "+55 49 3567-5330",
+    "website": "http://www.vicolor.com.br/",
+    "cidade": "Caçador"
+  },
+  {
+    "title": "Foto Central",
+    "rating": 4.6,
+    "reviews": 199,
+    "type": "Portrait studio",
+    "phone": "+55 47 3387-6551",
+    "website": "",
+    "cidade": "Indaial"
+  },
+  {
+    "title": "Estúdio Mário Lima",
+    "rating": 5,
+    "reviews": 192,
+    "type": "Recording studio",
+    "phone": "+55 47 99984-0264",
+    "website": "http://estudiomariolima.com/?utm_source=gmb&utm_medium=referral",
+    "cidade": "Joinville"
+  },
+  {
+    "title": "Impulse Studio | Locação de estúdios",
+    "rating": 5,
+    "reviews": 192,
+    "type": "Photography studio",
+    "phone": "+55 48 98815-7772",
+    "website": "https://impulseestudio.com.br/",
+    "cidade": "Palhoça"
+  },
+  {
+    "title": "Tiaraju Estúdio, Foto e Vídeo",
+    "rating": 5,
+    "reviews": 192,
+    "type": "Photography studio",
+    "phone": "+55 47 99760-7127",
+    "website": "https://www.tiarajuestudio.com/",
+    "cidade": "Camboriú"
+  },
+  {
+    "title": "Tania Bauer Fotografia",
+    "rating": 5,
+    "reviews": 189,
+    "type": "Portrait studio",
+    "phone": "+55 47 99986-6618",
+    "website": "http://www.taniabauer.com/",
+    "cidade": "São Bento do Sul"
+  },
+  {
+    "title": "Sueli Fotografias",
+    "rating": 5,
+    "reviews": 188,
+    "type": "Photography studio",
+    "phone": "+55 47 98824-7891",
+    "website": "",
+    "cidade": "Indaial"
+  },
+  {
+    "title": "Estúdio Dois A",
+    "rating": 5,
+    "reviews": 184,
+    "type": "Portrait studio",
+    "phone": "+55 47 99908-9570",
+    "website": "http://www.estudiodoisa.com.br/",
+    "cidade": "Itajaí"
+  },
+  {
+    "title": "Studio Stein",
+    "rating": 5,
+    "reviews": 176,
+    "type": "Beauty salon",
+    "phone": "+55 48 99170-6868",
+    "website": "",
+    "cidade": "Tijucas"
+  },
+  {
+    "title": "Eberson Teodoro Estúdio e Escola de Fotografia",
+    "rating": 5,
+    "reviews": 171,
+    "type": "Photographer",
+    "phone": "+55 47 98434-4098",
+    "website": "https://ebersonteodoro.com.br/",
+    "cidade": "Araquari"
+  },
+  {
+    "title": "Charane Fotografias São Bento do Sul",
+    "rating": 5,
+    "reviews": 157,
+    "type": "Photography studio",
+    "phone": "+55 47 99169-8513",
+    "website": "https://www.instagram.com/fernandacharane/",
+    "cidade": "São Bento do Sul"
+  },
+  {
+    "title": "Silver Tape Studio",
+    "rating": 4.9,
+    "reviews": 152,
+    "type": "Recording studio",
+    "phone": "+55 47 99111-3303",
+    "website": "http://www.silvertapestudio.com.br/",
+    "cidade": "Balneário Camboriú"
+  },
+  {
+    "title": "Cardoso Fotografias",
+    "rating": 4.6,
+    "reviews": 151,
+    "type": "Portrait studio",
+    "phone": "+55 47 99952-4777",
+    "website": "http://www.cardosofotografias.com.br/",
+    "cidade": "Indaial"
+  },
+  {
+    "title": "Naysa Cardoso Fotografia - Newborn - Gestante - Família - Infantil- Acompanhamento mensal- Feminino e Eventos",
+    "rating": 5,
+    "reviews": 146,
+    "type": "Photographer",
+    "phone": "+55 47 99632-0278",
+    "website": "https://www.instagram.com/naysacardosofotografia/",
+    "cidade": "Gaspar"
+  },
+  {
+    "title": "Arthur Manson Photo Studio - Fotógrafo Navegantes",
+    "rating": 4.9,
+    "reviews": 140,
+    "type": "Photographer",
+    "phone": "+55 47 99758-0727",
+    "website": "http://www.arthurmanson.com.br/",
+    "cidade": "Itajaí"
+  },
+  {
+    "title": "Prime Estúdio",
+    "rating": 5,
+    "reviews": 129,
+    "type": "Recording studio",
+    "phone": "+55 47 99966-7457",
+    "website": "http://www.primeestudio.com/",
+    "cidade": "Joinville"
+  },
+  {
+    "title": "Estúdio Toca Records",
+    "rating": 4.9,
+    "reviews": 126,
+    "type": "Recording studio",
+    "phone": "+55 47 99141-6132",
+    "website": "",
+    "cidade": "Joinville"
+  },
+  {
+    "title": "Hd' Music Studio",
+    "rating": 5,
+    "reviews": 125,
+    "type": "Recording studio",
+    "phone": "+55 48 98829-0964",
+    "website": "http://www.hdmusicstudio.com.br/",
+    "cidade": "Florianópolis"
+  },
+  {
+    "title": "Charles Mafra Fotografia",
+    "rating": 5,
+    "reviews": 125,
+    "type": "Photographer",
+    "phone": "+55 47 98857-1673",
+    "website": "http://www.charlesmafra.com.br/",
+    "cidade": "Brusque"
+  },
+  {
+    "title": "Café Maestro Productions",
+    "rating": 4.8,
+    "reviews": 122,
+    "type": "Recording studio",
+    "phone": "+55 47 99147-6016",
+    "website": "http://www.cafemaestro.com.br/",
+    "cidade": "Itajaí"
+  },
+  {
+    "title": "Pin Up Studio Fotográfico",
+    "rating": 4.7,
+    "reviews": 119,
+    "type": "Photography studio",
+    "phone": "+55 48 3025-5467",
+    "website": "https://instagram.com/pinupstudiofotografico",
+    "cidade": "Palhoça"
+  },
+  {
+    "title": "Sttudio A Cabeleireiros",
+    "rating": 4.8,
+    "reviews": 119,
+    "type": "Beauty salon",
+    "phone": "+55 47 3521-1435",
+    "website": "https://www.facebook.com/sttudioacabeleireiros/",
+    "cidade": "Rio do Sul"
+  },
+  {
+    "title": "Luciana Natalia Fotografias",
+    "rating": 4.8,
+    "reviews": 118,
+    "type": "Photographer",
+    "phone": "+351 912 489 090",
+    "website": "http://www.luciananatalia.com.br/",
+    "cidade": "Chapecó"
+  },
+  {
+    "title": "Foco Fotografias",
+    "rating": 4.7,
+    "reviews": 117,
+    "type": "Portrait studio",
+    "phone": "+55 49 99158-5453",
+    "website": "",
+    "cidade": "Chapecó"
+  },
+  {
+    "title": "PS Photoart Estúdio Fotográfico",
+    "rating": 4.9,
+    "reviews": 116,
+    "type": "Photography studio",
+    "phone": "+55 47 98926-2019",
+    "website": "http://www.psphotoart.com.br/",
+    "cidade": "Brusque"
+  },
+  {
+    "title": "Deh Concept | Barbearia e Salão de Beleza em Caçador",
+    "rating": 5,
+    "reviews": 115,
+    "type": "Beauty salon",
+    "phone": "+55 49 99165-7317",
+    "website": "https://sites.appbarber.com.br/dehconcept",
+    "cidade": "Caçador"
+  },
+  {
+    "title": "Ferreira e Maciel - Fotografia e Filme de Casamento e Família.",
+    "rating": 5,
+    "reviews": 115,
+    "type": "Portrait studio",
+    "phone": "+55 48 99953-1363",
+    "website": "https://www.ferreiraemaciel.com.br/",
+    "cidade": "Araranguá"
+  },
+  {
+    "title": "Studio 74",
+    "rating": 4.8,
+    "reviews": 109,
+    "type": "Recording studio",
+    "phone": "+55 48 99995-4243",
+    "website": "https://www.studiomusical74.com/",
+    "cidade": "Florianópolis"
+  },
+  {
+    "title": "Foto Gilmar",
+    "rating": 4.9,
+    "reviews": 109,
+    "type": "Portrait studio",
+    "phone": "+55 47 99977-9181",
+    "website": "http://fotogilmar.com/?utm_source=gmb&utm_medium=referral",
+    "cidade": "Tijucas"
+  },
+  {
+    "title": "Estúdio Dr. Amadeu | PODCAST & SNACKS",
+    "rating": 5,
+    "reviews": 107,
+    "type": "Recording studio",
+    "phone": "+55 47 99271-8219",
+    "website": "https://estudiodramadeu.com/",
+    "cidade": "Blumenau"
+  },
+  {
+    "title": "Evydência",
+    "rating": 4.7,
+    "reviews": 107,
+    "type": "Photography studio",
+    "phone": "+55 48 99642-5287",
+    "website": "https://evydencia.com/cadastro",
+    "cidade": "Tijucas"
+  },
+  {
+    "title": "STUDIO L CONCEPT",
+    "rating": 4.8,
+    "reviews": 105,
+    "type": "Beauty salon",
+    "phone": "+55 49 3331-2242",
+    "website": "http://studiolconcept.com.br/",
+    "cidade": "Chapecó"
+  },
+  {
+    "title": "Estúdio Alegrar - Fotografia",
+    "rating": 4.8,
+    "reviews": 105,
+    "type": "Portrait studio",
+    "phone": "+55 47 99670-7704",
+    "website": "http://www.estudioalegrar.com.br/",
+    "cidade": "Balneário Camboriú"
+  },
+  {
+    "title": "Cleópatra Carrere",
+    "rating": 5,
+    "reviews": 104,
+    "type": "Portrait studio",
+    "phone": "+55 47 99733-7647",
+    "website": "https://studiocleopatracarrere.myportfolio.com/",
+    "cidade": "Camboriú"
+  },
+  {
+    "title": "Ana Flávia Fotografias",
+    "rating": 5,
+    "reviews": 101,
+    "type": "Photographer",
+    "phone": "+55 47 98855-5690",
+    "website": "http://www.anaflaviafotografafamilia.com.br/",
+    "cidade": "Indaial"
+  },
+  {
+    "title": "Estúdio Amentar - fotografia de gestantes, newborn, bebês e famílias.",
+    "rating": 4.9,
+    "reviews": 100,
+    "type": "Portrait studio",
+    "phone": "+55 47 98857-7356",
+    "website": "https://www.estudioamentar.com.br/",
+    "cidade": "Jaraguá do Sul"
+  },
+  {
+    "title": "Estúdio Fotográfico Daiane Raupp",
+    "rating": 4.9,
+    "reviews": 98,
+    "type": "Portrait studio",
+    "phone": "+55 47 99944-0933",
+    "website": "http://www.daianerauppfotografia.com.br/",
+    "cidade": "Guaramirim"
+  },
+  {
+    "title": "Bacca - Estúdio e Sonorização",
+    "rating": 5,
+    "reviews": 97,
+    "type": "Recording studio",
+    "phone": "+55 47 99646-2251",
+    "website": "https://www.facebook.com/baccaestudio",
+    "cidade": "Blumenau"
+  },
+  {
+    "title": "Juliane Müller Fotografia",
+    "rating": 5,
+    "reviews": 97,
+    "type": "Photography studio",
+    "phone": "+55 47 99749-7775",
+    "website": "https://www.instagram.com/juliemller_ph?igsh=cGYxMjR4cjF0YWQ1&utm_source=qr",
+    "cidade": "São Bento do Sul"
+  },
+  {
+    "title": "Estúdio Kalina Photoboutique",
+    "rating": 4.9,
+    "reviews": 96,
+    "type": "Portrait studio",
+    "phone": "+55 47 98814-3728",
+    "website": "http://www.estudiokalina.com/",
+    "cidade": "Joinville"
+  },
+  {
+    "title": "DNZ Estúdio Fotográfico | Danilo Zonta Fotografias",
+    "rating": 5,
+    "reviews": 95,
+    "type": "Photographer",
+    "phone": "+55 49 99834-8699",
+    "website": "http://www.danilozonta.com.br/",
+    "cidade": "Chapecó"
+  }
+];
+                initTable();
+            }
+        }
+
+        // Inicializar tabela
+        function initTable() {
+            const tbody = document.getElementById('studiosTableBody');
+            tbody.innerHTML = '';
+            
+            // Filtrar dados pelos tipos permitidos
+            const filteredData = estudiosData.filter(studio => allowedTypes.includes(studio.type));
+            
+            filteredData.forEach(studio => {
+                const row = document.createElement('tr');
+                row.innerHTML = `
+                    <td class="${getMeteoro(studio.type)}">${studio.title}</td>
+                    <td class="${getMeteoro(studio.type)}">${studio.cidade}</td>
+                    <td class="${getMeteoro(studio.type)}">${studio.type}</td>
+                    <td class="${getMeteoro(studio.type)}"><span class="rating ${getRatingClass(studio.rating)}">${studio.rating}</span></td>
+                    <td class="${getMeteoro(studio.type)}">${studio.reviews}</td>
+                    <td class="${getMeteoro(studio.type)}">${studio.website ? `<a href="${studio.website}" target="_blank">${studio.website}</a>` : 'Não informado'}</td>
+                    <td class="${getMeteoro(studio.type)}" class="telefone">${studio.phone || 'Não informado'}</td>
+                `;
+                tbody.appendChild(row);
+            });
+        }
+
+        function getRatingClass(rating) {
+            if (rating >= 4.5) return 'excellent';
+            if (rating >= 4.0) return 'good';
+            return 'average';
+        }
+
+        function getMeteoro(type){
+            if (type=="Rehearsal studio"){
+                return "meteoro";
+            }
+        }
+
+        // Inicializar filtros
+        function initFilters() {
+            // Aqui você pode adicionar lógica para popular os filtros com dados reais
+            // Por enquanto, deixamos os valores padrão
+        }
+
+        // Inicializar tudo quando a página carregar
+        document.addEventListener('DOMContentLoaded', function() {
+            initCharts();
+            loadEstudiosData(); // Carregar dados do JSON
+            initFilters();
+        });
+    </script>
+</body>
+</html>

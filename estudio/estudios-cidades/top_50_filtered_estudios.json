@@ -1,0 +1,1362 @@
+[
+  {
+    "position": 14,
+    "title": "Foto Ricardo",
+    "place_id": "ChIJuWLnyMtNJ5URQnKqNwVfIew",
+    "data_id": "0x95274dcbc8e762b9:0xec215f0537aa7242",
+    "data_cid": "17014985343195836994",
+    "gps_coordinates": {
+      "latitude": -27.491036599999997,
+      "longitude": -48.654939999999996
+    },
+    "rating": 4.7,
+    "reviews": 502,
+    "type": "Photography studio",
+    "type_id": "photography_studio",
+    "address": "R. João Born, 480 - Centro, Biguaçu - SC, 88160-000, Brazil",
+    "operating_hours": {
+      "friday": "9 AM–12 PM, 1:30–6:30 PM",
+      "saturday": "8:30 AM–12:30 PM",
+      "sunday": "Closed",
+      "monday": "9 AM–12 PM, 1:30–6:30 PM",
+      "tuesday": "9 AM–12 PM, 1:30–6:30 PM",
+      "wednesday": "9 AM–12 PM, 1:30–6:30 PM",
+      "thursday": "9 AM–12 PM, 1:30–6:30 PM"
+    },
+    "phone": "+55 48 98482-0598",
+    "website": "https://m.facebook.com/fotoricardo.com.br",
+    "cidade": "Biguaçu"
+  },
+  {
+    "position": 16,
+    "title": "Alonso Fotografia - Estúdio Fotográfico",
+    "place_id": "ChIJL_C6E843J5URLWj3Qg_EWW0",
+    "data_id": "0x952737ce13baf02f:0x6d59c40f42f7682d",
+    "data_cid": "7879544592888457261",
+    "gps_coordinates": {
+      "latitude": -27.5969218,
+      "longitude": -48.520333199999996
+    },
+    "rating": 5,
+    "reviews": 369,
+    "type": "Portrait studio",
+    "type_id": "portrait_studio",
+    "address": "AGENDE SUA VISITA, R. Lauro Linhares, 2123 - Sala 206-B - Trindade, Florianópolis - SC, 88036-003, Brazil",
+    "operating_hours": "",
+    "phone": "+55 48 99823-0020",
+    "website": "https://alonsofotografia.com.br/",
+    "cidade": "São José"
+  },
+  {
+    "position": 16,
+    "title": "Marlisa Fotos",
+    "place_id": "ChIJKW5xXr_U3ZQRdm3I_cWg_Jk",
+    "data_id": "0x94ddd4bf5e716e29:0x99fca0c5fdc86d76",
+    "data_cid": "11095920354160831862",
+    "gps_coordinates": {
+      "latitude": -26.248964899999997,
+      "longitude": -49.3799437
+    },
+    "rating": 4.4,
+    "reviews": 315,
+    "type": "Photography studio",
+    "type_id": "photography_studio",
+    "address": "Condomínio do Shopping Zipperer, R. Barão do Rio Branco, 197 - Centro, São Bento do Sul - SC, 89280-355, Brazil",
+    "operating_hours": {
+      "friday": "9 AM–7:45 PM",
+      "saturday": "9 AM–5 PM",
+      "sunday": "Closed",
+      "monday": "9 AM–7:45 PM",
+      "tuesday": "9 AM–7:45 PM",
+      "wednesday": "9 AM–7:45 PM",
+      "thursday": "9 AM–7:45 PM"
+    },
+    "phone": "+55 47 99923-2227",
+    "website": "http://www.marlisa.com.br/",
+    "cidade": "São Bento do Sul"
+  },
+  {
+    "position": 14,
+    "title": "Stylo Life Studio",
+    "place_id": "ChIJL96bnd8uIpURwfBbrHK7GCI",
+    "data_id": "0x95222edf9d9bde2f:0x2218bb72ac5bf0c1",
+    "data_cid": "2456919697922977985",
+    "gps_coordinates": {
+      "latitude": -28.9389142,
+      "longitude": -49.479487999999996
+    },
+    "rating": 4.8,
+    "reviews": 291,
+    "type": "Beauty salon",
+    "type_id": "beauty_salon",
+    "address": "Av. Getúlio Vargas, 780 - Centro, Araranguá - SC, 88900-035, Brazil",
+    "operating_hours": {
+      "friday": "9 AM–12 PM, 1:30–6:30 PM",
+      "saturday": "9 AM–12 PM, 1:30–6:30 PM",
+      "sunday": "Closed",
+      "monday": "Closed",
+      "tuesday": "9 AM–12 PM, 1:30–6:30 PM",
+      "wednesday": "9 AM–12 PM, 1:30–6:30 PM",
+      "thursday": "9 AM–12 PM, 1:30–6:30 PM"
+    },
+    "phone": "+55 48 99924-9464",
+    "website": "https://www.facebook.com/stylolifestudio/",
+    "cidade": "Araranguá"
+  },
+  {
+    "position": 15,
+    "title": "Foto Julius",
+    "place_id": "ChIJsaP_AUUY35QR9ctvhfYV9Q0",
+    "data_id": "0x94df184501ffa3b1:0xdf515f6856fcbf5",
+    "data_cid": "1005734240332008437",
+    "gps_coordinates": {
+      "latitude": -26.9378568,
+      "longitude": -49.0663815
+    },
+    "rating": 4.6,
+    "reviews": 260,
+    "type": "Portrait studio",
+    "type_id": "portrait_studio",
+    "address": "R. Soroptimistas, 45 - Garcia, Blumenau - SC, 89021-030, Brazil",
+    "operating_hours": {
+      "friday": "8:30 AM–12 PM, 1:30–6 PM",
+      "saturday": "8 AM–12 PM",
+      "sunday": "Closed",
+      "monday": "8:30 AM–12 PM, 1:30–6 PM",
+      "tuesday": "8:30 AM–12 PM, 1:30–6 PM",
+      "wednesday": "8:30 AM–12 PM, 1:30–6 PM",
+      "thursday": "8:30 AM–12 PM, 1:30–6 PM"
+    },
+    "phone": "+55 47 3324-1737",
+    "website": "http://www.fotojulius.com.br/",
+    "cidade": "Blumenau"
+  },
+  {
+    "position": 11,
+    "title": "AeroTullio Sound Distillery",
+    "place_id": "ChIJu3BSa9NJJ5URduaqR0lnNYw",
+    "data_id": "0x952749d36b5270bb:0x8c35674947aae676",
+    "data_cid": "10103094903508231798",
+    "gps_coordinates": {
+      "latitude": -27.5835553,
+      "longitude": -48.6003301
+    },
+    "rating": 4.9,
+    "reviews": 242,
+    "type": "Recording studio",
+    "type_id": "recording_studio",
+    "address": "R. Atahualpa de Andrade, 678 - Jardim Atlântico, Florianópolis - SC, 88095-570, Brazil",
+    "operating_hours": {
+      "friday": "9 am–10 pm",
+      "saturday": "9 am–10 pm",
+      "sunday": "1–10 pm",
+      "monday": "9 am–10 pm",
+      "tuesday": "9 am–10 pm",
+      "wednesday": "9 am–10 pm",
+      "thursday": "9 am–10 pm"
+    },
+    "phone": "+55 48 98842-5669",
+    "website": "https://www.aerotullio.com/",
+    "cidade": "Florianópolis"
+  },
+  {
+    "position": 1,
+    "title": "Meteoro Estúdio",
+    "place_id": "ChIJ7wn8joCCIZURICAHYx9yvqw",
+    "data_id": "0x952182808efc09ef:0xacbe721f63072020",
+    "data_cid": "12447511899229593632",
+    "gps_coordinates": {
+      "latitude": -28.679284199999998,
+      "longitude": -49.3683184
+    },
+    "rating": 4.9,
+    "reviews": 237,
+    "type": "Rehearsal studio",
+    "type_id": "rehearsa_studio",
+    "address": "R. Seis de Janeiro, 111 - Centro, Criciúma - SC, 88801-055, Brazil",
+    "operating_hours": {
+      "friday": "6:30 PM–1 AM",
+      "saturday": "6 PM–1 AM",
+      "sunday": "6:30 PM–1 AM",
+      "monday": "6:30 PM–1 AM",
+      "tuesday": "6:30 PM–1 AM",
+      "wednesday": "6:30 PM–1 AM",
+      "thursday": "6:30 PM–1 AM"
+    },
+    "phone": "+55 48 99987-1012",
+    "website": "http://instagram.com/meteoroestudio",
+    "cidade": "Criciúma"
+  },
+  {
+    "position": 20,
+    "title": "FB Fotografias",
+    "place_id": "ChIJpzsoMf6U3pQRr6Rm622_Glc",
+    "data_id": "0x94de94fe31283ba7:0x571abf6deb66a4af",
+    "data_cid": "6276539509515920559",
+    "gps_coordinates": {
+      "latitude": -26.482598,
+      "longitude": -49.082626999999995
+    },
+    "rating": 4.7,
+    "reviews": 236,
+    "type": "Photography studio",
+    "type_id": "photography_studio",
+    "address": "Av. Mal. Deodoro da Fonseca, 141 - sl 3 - Centro, Jaraguá do Sul - SC, 89251-701, Brazil",
+    "operating_hours": {
+      "friday": "8:30 AM–7 PM",
+      "saturday": "8:30 AM–12:30 PM",
+      "sunday": "Closed",
+      "monday": "8:30 AM–7 PM",
+      "tuesday": "8:30 AM–7 PM",
+      "wednesday": "8:30 AM–7 PM",
+      "thursday": "8:30 AM–7 PM"
+    },
+    "phone": "+55 47 98406-4192",
+    "website": "https://www.facebook.com/FB-FOTOGRAFIAS-217754231578727/",
+    "cidade": "Jaraguá do Sul"
+  },
+  {
+    "position": 3,
+    "title": "Carlos Suzuki Fotografias",
+    "place_id": "ChIJGY9ShT354JQRprCF6QJqL1c",
+    "data_id": "0x94e0f93d85528f19:0x572f6a02e985b0a6",
+    "data_cid": "6282356565945462950",
+    "gps_coordinates": {
+      "latitude": -27.2867639,
+      "longitude": -50.583402299999996
+    },
+    "rating": 5,
+    "reviews": 225,
+    "type": "Photography studio",
+    "type_id": "photography_studio",
+    "address": "R. Benjamin Constant, 175 - Centro, Curitibanos - SC, 89520-000, Brazil",
+    "operating_hours": {
+      "friday": "8:30–11:30 AM, 1:30–6:30 PM",
+      "saturday": "Closed",
+      "sunday": "Closed",
+      "monday": "8:30–11:30 AM, 1:30–6:30 PM",
+      "tuesday": "8:30–11:30 AM, 1:30–6:30 PM",
+      "wednesday": "8:30–11:30 AM, 1:30–6:30 PM",
+      "thursday": "8:30–11:30 AM, 1:30–6:30 PM"
+    },
+    "phone": "+55 49 98438-6099",
+    "website": "http://www.suzukifotos.com.br/",
+    "cidade": "Curitibanos"
+  },
+  {
+    "position": 2,
+    "title": "Vic Color Fotografia - Caçador",
+    "place_id": "ChIJA39WeQC25pQRrbb7vn5K9Jg",
+    "data_id": "0x94e6b60079567f03:0x98f44a7ebefbb6ad",
+    "data_cid": "11021516096312948397",
+    "gps_coordinates": {
+      "latitude": -26.7737147,
+      "longitude": -51.0138549
+    },
+    "rating": 4.3,
+    "reviews": 199,
+    "type": "Portrait studio",
+    "type_id": "portrait_studio",
+    "address": "Av. Barão do Rio Branco, 404 - Centro, Caçador - SC, 89500-000, Brazil",
+    "operating_hours": {
+      "friday": "8:30 AM–12 PM, 1:20–7 PM",
+      "saturday": "8:30 AM–1 PM",
+      "sunday": "Closed",
+      "monday": "8:30 AM–12 PM, 1:20–7 PM",
+      "tuesday": "8:30 AM–12 PM, 1:20–7 PM",
+      "wednesday": "8:30 AM–12 PM, 1:20–7 PM",
+      "thursday": "8:30 AM–12 PM, 1:20–7 PM"
+    },
+    "phone": "+55 49 3567-5330",
+    "website": "http://www.vicolor.com.br/",
+    "cidade": "Caçador"
+  },
+  {
+    "position": 6,
+    "title": "Foto Central",
+    "place_id": "ChIJ3z8m2I8C35QRVjpQvrP55VY",
+    "data_id": "0x94df028fd8263fdf:0x56e5f9b3be503a56",
+    "data_cid": "6261685407315933782",
+    "gps_coordinates": {
+      "latitude": -26.8940882,
+      "longitude": -49.2333305
+    },
+    "rating": 4.6,
+    "reviews": 199,
+    "type": "Portrait studio",
+    "type_id": "portrait_studio",
+    "address": "Av. Getúlio Vargas, 123 - Centro, Indaial - SC, 89080-024, Brazil",
+    "operating_hours": {
+      "friday": "8 AM–12 PM, 1:30–6 PM",
+      "saturday": "8 AM–12 PM",
+      "sunday": "Closed",
+      "monday": "8 AM–12 PM, 1:30–6 PM",
+      "tuesday": "8 AM–12 PM, 1:30–6 PM",
+      "wednesday": "8 AM–12 PM, 1:30–6 PM",
+      "thursday": "8 AM–12 PM, 1:30–6 PM"
+    },
+    "phone": "+55 47 3387-6551",
+    "website": "",
+    "cidade": "Indaial"
+  },
+  {
+    "position": 1,
+    "title": "Estúdio Mário Lima",
+    "place_id": "ChIJ3w0w5gCx3pQR1A5-rR_wWDc",
+    "data_id": "0x94deb100e6300ddf:0x3758f01fad7e0ed4",
+    "data_cid": "3988201488881946324",
+    "gps_coordinates": {
+      "latitude": -26.3183078,
+      "longitude": -48.8362431
+    },
+    "rating": 5,
+    "reviews": 192,
+    "type": "Recording studio",
+    "type_id": "recording_studio",
+    "address": "R. Curitibanos, 985 - Bucarein, Joinville - SC, 89202-391, Brazil",
+    "operating_hours": {
+      "friday": "2 PM–12 AM",
+      "saturday": "2–6 PM",
+      "sunday": "2–6 PM",
+      "monday": "2 PM–12 AM",
+      "tuesday": "2 PM–12 AM",
+      "wednesday": "2 PM–12 AM",
+      "thursday": "2 PM–12 AM"
+    },
+    "phone": "+55 47 99984-0264",
+    "website": "http://estudiomariolima.com/?utm_source=gmb&utm_medium=referral",
+    "cidade": "Joinville"
+  },
+  {
+    "position": 12,
+    "title": "Impulse Studio | Locação de estúdios",
+    "place_id": "ChIJ02Bb0KVJJ5URrtlHIi0rzTQ",
+    "data_id": "0x952749a5d05b60d3:0x34cd2b2d2247d9ae",
+    "data_cid": "3804744733046593966",
+    "gps_coordinates": {
+      "latitude": -27.5839769,
+      "longitude": -48.6107916
+    },
+    "rating": 5,
+    "reviews": 192,
+    "type": "Photography studio",
+    "type_id": "photography_studio",
+    "address": "R. Santo Antônio, 1460 - sala 407 - Barreiros, São José - SC, 88117-351, Brazil",
+    "operating_hours": {
+      "friday": "9 AM–6 PM",
+      "saturday": "9 AM–6 PM",
+      "sunday": "9 AM–6 PM",
+      "monday": "9 AM–6 PM",
+      "tuesday": "9 AM–6 PM",
+      "wednesday": "9 AM–6 PM",
+      "thursday": "9 AM–6 PM"
+    },
+    "phone": "+55 48 98815-7772",
+    "website": "https://impulseestudio.com.br/",
+    "cidade": "Palhoça"
+  },
+  {
+    "position": 9,
+    "title": "Tiaraju Estúdio, Foto e Vídeo",
+    "place_id": "ChIJGYU7MpC12JQRA3Ze-7hJe38",
+    "data_id": "0x94d8b590323b8519:0x7f7b49b8fb5e7603",
+    "data_cid": "9186016923792340483",
+    "gps_coordinates": {
+      "latitude": -27.0346369,
+      "longitude": -48.651429199999995
+    },
+    "rating": 5,
+    "reviews": 192,
+    "type": "Photography studio",
+    "type_id": "photography_studio",
+    "address": "Centro Comercial Guilherme Garcia, Alameda Cap. Ernesto Nunes, 675 - Sala 104 - 2° andar - Lídia Duarte, Camboriú - SC, 88341-170, Brazil",
+    "operating_hours": {
+      "friday": "8 AM–12 PM, 1:30–6 PM",
+      "saturday": "9 AM–12 PM",
+      "sunday": "Closed",
+      "monday": "8 AM–12 PM, 1:30–6 PM",
+      "tuesday": "8 AM–12 PM, 1:30–6 PM",
+      "wednesday": "8 AM–12 PM, 1:30–6 PM",
+      "thursday": "8 AM–6 PM"
+    },
+    "phone": "+55 47 99760-7127",
+    "website": "https://www.tiarajuestudio.com/",
+    "cidade": "Camboriú"
+  },
+  {
+    "position": 13,
+    "title": "Tania Bauer Fotografia",
+    "place_id": "ChIJX494vHXT3ZQR99rpxK1e9rM",
+    "data_id": "0x94ddd375bc788f5f:0xb3f65eadc4e9daf7",
+    "data_cid": "12967656277485935351",
+    "gps_coordinates": {
+      "latitude": -26.2226371,
+      "longitude": -49.4050182
+    },
+    "rating": 5,
+    "reviews": 189,
+    "type": "Portrait studio",
+    "type_id": "portrait_studio",
+    "address": "Rua Alexandre Schlemm, 152 - Oxford, São Bento do Sul - SC, 89285-635, Brazil",
+    "operating_hours": "",
+    "phone": "+55 47 99986-6618",
+    "website": "http://www.taniabauer.com/",
+    "cidade": "São Bento do Sul"
+  },
+  {
+    "position": 16,
+    "title": "Sueli Fotografias",
+    "place_id": "ChIJA7Iqzvj73pQRfrgXH5j_Bls",
+    "data_id": "0x94defbf8ce2ab203:0x5b06ff981f17b87e",
+    "data_cid": "6559210936133466238",
+    "gps_coordinates": {
+      "latitude": -26.8231982,
+      "longitude": -49.270642599999995
+    },
+    "rating": 5,
+    "reviews": 188,
+    "type": "Photography studio",
+    "type_id": "photography_studio",
+    "address": "R. Mal. Deodoro da Fonseca, 263 - Das Nações, Timbó - SC, 89120-000, Brazil",
+    "operating_hours": {
+      "friday": "9 AM–12 PM, 2–6 PM",
+      "saturday": "8:30 AM–12 PM",
+      "sunday": "Closed",
+      "monday": "Closed",
+      "tuesday": "9 AM–12 PM, 2–6 PM",
+      "wednesday": "9 AM–12 PM, 2–6 PM",
+      "thursday": "9 AM–12 PM"
+    },
+    "phone": "+55 47 98824-7891",
+    "website": "",
+    "cidade": "Indaial"
+  },
+  {
+    "position": 19,
+    "title": "Estúdio Dois A",
+    "place_id": "ChIJFU9QK8232JQRek20mzIIhNE",
+    "data_id": "0x94d8b7cd2b504f15:0xd18408329bb44d7a",
+    "data_cid": "15097200864306417018",
+    "gps_coordinates": {
+      "latitude": -26.992730299999998,
+      "longitude": -48.6353953
+    },
+    "rating": 5,
+    "reviews": 184,
+    "type": "Portrait studio",
+    "type_id": "portrait_studio",
+    "address": "R. 1500, 577 - Sala 15 - Centro, Balneário Camboriú - SC, 88330-524, Brazil",
+    "operating_hours": {
+      "friday": "9 AM–6 PM",
+      "saturday": "9 AM–4 PM",
+      "sunday": "Closed",
+      "monday": "9 AM–6 PM",
+      "tuesday": "9 AM–6 PM",
+      "wednesday": "9 AM–6 PM",
+      "thursday": "9 AM–6 PM"
+    },
+    "phone": "+55 47 99908-9570",
+    "website": "http://www.estudiodoisa.com.br/",
+    "cidade": "Itajaí"
+  },
+  {
+    "position": 16,
+    "title": "Studio Stein",
+    "place_id": "ChIJCWeC9V-p2JQRBo1vx8uJZu0",
+    "data_id": "0x94d8a95ff5826709:0xed6689cbc76f8d06",
+    "data_cid": "17106511742930750726",
+    "gps_coordinates": {
+      "latitude": -27.2456237,
+      "longitude": -48.6421393
+    },
+    "rating": 5,
+    "reviews": 176,
+    "type": "Beauty salon",
+    "type_id": "beauty_salon",
+    "address": "Av. Bayer Filho, 777 - sala 10 - Centro, Tijucas - SC, 88200-000, Brazil",
+    "operating_hours": {
+      "friday": "6 AM–9 PM",
+      "saturday": "5 AM–4 PM",
+      "sunday": "7 AM–12 PM",
+      "monday": "6 AM–5 PM",
+      "tuesday": "6 AM–8 PM",
+      "wednesday": "6 AM–7 PM",
+      "thursday": "6 AM–8 PM"
+    },
+    "phone": "+55 48 99170-6868",
+    "website": "",
+    "cidade": "Tijucas"
+  },
+  {
+    "position": 10,
+    "title": "Eberson Teodoro Estúdio e Escola de Fotografia",
+    "place_id": "ChIJ8Wh9ly-w3pQRartWY0D51jc",
+    "data_id": "0x94deb02f977d68f1:0x37d6f9406356bb6a",
+    "data_cid": "4023677372041968490",
+    "gps_coordinates": {
+      "latitude": -26.3049903,
+      "longitude": -48.8463358
+    },
+    "rating": 5,
+    "reviews": 171,
+    "type": "Photographer",
+    "type_id": "photographer",
+    "address": "Av. Juscelino Kubitscheck, 410 - Centro, Joinville - SC, 89201-906, Brazil",
+    "operating_hours": {
+      "friday": "9 AM–12 PM, 2–6 PM",
+      "saturday": "Closed",
+      "sunday": "Closed",
+      "monday": "9 AM–12 PM, 2–6 PM",
+      "tuesday": "9 AM–12 PM, 2–6 PM",
+      "wednesday": "9 AM–12 PM, 2–6 PM",
+      "thursday": "9 AM–12 PM, 2–6 PM"
+    },
+    "phone": "+55 47 98434-4098",
+    "website": "https://ebersonteodoro.com.br/",
+    "cidade": "Araquari"
+  },
+  {
+    "position": 3,
+    "title": "Charane Fotografias São Bento do Sul",
+    "place_id": "ChIJ-Vlh8aXV3ZQRGCnmZDaZyX0",
+    "data_id": "0x94ddd5a5f16159f9:0x7dc9993664e62918",
+    "data_cid": "9063944183959922968",
+    "gps_coordinates": {
+      "latitude": -26.255622499999998,
+      "longitude": -49.3892617
+    },
+    "rating": 5,
+    "reviews": 157,
+    "type": "Photography studio",
+    "type_id": "photography_studio",
+    "address": "R. Luiz Bollmann, 326 - Centro, São Bento do Sul - SC, 89280-511, Brazil",
+    "operating_hours": {
+      "friday": "9 AM–6 PM",
+      "saturday": "9 AM–12 AM",
+      "sunday": "Closed",
+      "monday": "9 AM–6 PM",
+      "tuesday": "9 AM–6 PM",
+      "wednesday": "9 AM–6 PM",
+      "thursday": "9 AM–6 PM"
+    },
+    "phone": "+55 47 99169-8513",
+    "website": "https://www.instagram.com/fernandacharane/",
+    "cidade": "São Bento do Sul"
+  },
+  {
+    "position": 2,
+    "title": "Silver Tape Studio",
+    "place_id": "ChIJc-yTM2622JQRA09RiwxmQfM",
+    "data_id": "0x94d8b66e3393ec73:0xf341660c8b514f03",
+    "data_cid": "17528403428765683459",
+    "gps_coordinates": {
+      "latitude": -27.007096299999997,
+      "longitude": -48.6278645
+    },
+    "rating": 4.9,
+    "reviews": 152,
+    "type": "Recording studio",
+    "type_id": "recording_studio",
+    "address": "R. Dom Jaime, 233 - Vila Real, Balneário Camboriú - SC, 88337-120, Brazil",
+    "operating_hours": {
+      "friday": "2 PM–12 AM",
+      "saturday": "2 PM–12 AM",
+      "sunday": "Closed",
+      "monday": "2 PM–12 AM",
+      "tuesday": "2 PM–12 AM",
+      "wednesday": "2 PM–12 AM",
+      "thursday": "2 PM–12 AM"
+    },
+    "phone": "+55 47 99111-3303",
+    "website": "http://www.silvertapestudio.com.br/",
+    "cidade": "Balneário Camboriú"
+  },
+  {
+    "position": 12,
+    "title": "Cardoso Fotografias",
+    "place_id": "ChIJARuEMH4C35QRzQ84SvPU_9o",
+    "data_id": "0x94df027e30841b01:0xdaffd4f34a380fcd",
+    "data_cid": "15780565760716836813",
+    "gps_coordinates": {
+      "latitude": -26.8896747,
+      "longitude": -49.244456899999996
+    },
+    "rating": 4.6,
+    "reviews": 151,
+    "type": "Portrait studio",
+    "type_id": "portrait_studio",
+    "address": "R. Maria Simão, 351 - Nações, Indaial - SC, 89130-000, Brazil",
+    "operating_hours": {
+      "friday": "9 AM–12 PM, 1:30–6 PM",
+      "saturday": "9 AM–12 PM",
+      "sunday": "Closed",
+      "monday": "9 AM–12 PM, 1:30–6 PM",
+      "tuesday": "9 AM–12 PM, 1:30–6 PM",
+      "wednesday": "9 AM–12 PM, 1:30–6 PM",
+      "thursday": "9 AM–12 PM, 1:30–6 PM"
+    },
+    "phone": "+55 47 99952-4777",
+    "website": "http://www.cardosofotografias.com.br/",
+    "cidade": "Indaial"
+  },
+  {
+    "position": 20,
+    "title": "Naysa Cardoso Fotografia - Newborn - Gestante - Família - Infantil- Acompanhamento mensal- Feminino e Eventos",
+    "place_id": "ChIJRQ_CnEEZ35QRcCdP3ALQ9gA",
+    "data_id": "0x94df19419cc20f45:0xf6d002dc4f2770",
+    "data_cid": "69471554975508336",
+    "gps_coordinates": {
+      "latitude": -26.896549399999998,
+      "longitude": -49.0823636
+    },
+    "rating": 5,
+    "reviews": 146,
+    "type": "Photographer",
+    "type_id": "photographer",
+    "address": "rua engenheiro Paul Werner 777 Ao lado da Altona Rua Engenheiro Paul Werner, 777 - Itoupava Seca, Blumenau - SC, 89030-101, Itopava seca, Blumenau - SC, 89030-100, Brazil",
+    "operating_hours": {
+      "friday": "1:30–5 PM",
+      "saturday": "8:30 AM–12 PM",
+      "sunday": "Closed",
+      "monday": "1:30–5 PM",
+      "tuesday": "1:30–5 PM",
+      "wednesday": "1:30–5 PM",
+      "thursday": "1:30–5 PM"
+    },
+    "phone": "+55 47 99632-0278",
+    "website": "https://www.instagram.com/naysacardosofotografia/",
+    "cidade": "Gaspar"
+  },
+  {
+    "position": 9,
+    "title": "Arthur Manson Photo Studio - Fotógrafo Navegantes",
+    "place_id": "ChIJg67xiSHM2JQRS3AdTdxrxPE",
+    "data_id": "0x94d8cc2189f1ae83:0xf1c46bdc4d1d704b",
+    "data_cid": "17421167852506673227",
+    "gps_coordinates": {
+      "latitude": -26.887966199999997,
+      "longitude": -48.6440766
+    },
+    "rating": 4.9,
+    "reviews": 140,
+    "type": "Photographer",
+    "type_id": "photographer",
+    "address": "Rua Arno Gaya, 169 - Centro, Navegantes - SC, 88370-172, Brazil",
+    "operating_hours": {
+      "friday": "Open 24 hours",
+      "saturday": "Open 24 hours",
+      "sunday": "Open 24 hours",
+      "monday": "Open 24 hours",
+      "tuesday": "Open 24 hours",
+      "wednesday": "Open 24 hours",
+      "thursday": "Open 24 hours"
+    },
+    "phone": "+55 47 99758-0727",
+    "website": "http://www.arthurmanson.com.br/",
+    "cidade": "Itajaí"
+  },
+  {
+    "position": 4,
+    "title": "Prime Estúdio",
+    "place_id": "ChIJUQMQ-Eyw3pQRTzf_eLC3ggQ",
+    "data_id": "0x94deb04cf8100351:0x482b7b078ff374f",
+    "data_cid": "325024091696215887",
+    "gps_coordinates": {
+      "latitude": -26.265901399999997,
+      "longitude": -48.8818286
+    },
+    "rating": 5,
+    "reviews": 129,
+    "type": "Recording studio",
+    "type_id": "recording_studio",
+    "address": "R. Luiz Bachtold, 100 - Costa e Silva, Joinville - SC, 89220-300, Brazil",
+    "operating_hours": {
+      "friday": "9 AM–6 PM",
+      "saturday": "Closed",
+      "sunday": "Closed",
+      "monday": "9 AM–6 PM",
+      "tuesday": "9 AM–6 PM",
+      "wednesday": "9 AM–6 PM",
+      "thursday": "9 AM–6 PM"
+    },
+    "phone": "+55 47 99966-7457",
+    "website": "http://www.primeestudio.com/",
+    "cidade": "Joinville"
+  },
+  {
+    "position": 2,
+    "title": "Estúdio Toca Records",
+    "place_id": "ChIJd7077Qiw3pQRcHje98_67Bs",
+    "data_id": "0x94deb008ed3bbd77:0x1becfacff7de7870",
+    "data_cid": "2012258904651495536",
+    "gps_coordinates": {
+      "latitude": -26.302428799999998,
+      "longitude": -48.8768828
+    },
+    "rating": 4.9,
+    "reviews": 126,
+    "type": "Recording studio",
+    "type_id": "recording_studio",
+    "address": "R. Alberto Ponick, 88 - Glória, Joinville - SC, 89216-368, Brazil",
+    "operating_hours": {
+      "friday": "9 AM–12 AM",
+      "saturday": "9 AM–7 PM",
+      "sunday": "9 AM–10 PM",
+      "monday": "9 AM–12 AM",
+      "tuesday": "9 AM–12 AM",
+      "wednesday": "9 AM–12 AM",
+      "thursday": "9 AM–12 AM"
+    },
+    "phone": "+55 47 99141-6132",
+    "website": "",
+    "cidade": "Joinville"
+  },
+  {
+    "position": 5,
+    "title": "Hd' Music Studio",
+    "place_id": "ChIJu0E04Oc4J5UROAbBFbWBIfU",
+    "data_id": "0x952738e7e03441bb:0xf52181b515c10638",
+    "data_cid": "17663541828277831224",
+    "gps_coordinates": {
+      "latitude": -27.582191599999998,
+      "longitude": -48.4998283
+    },
+    "rating": 5,
+    "reviews": 125,
+    "type": "Recording studio",
+    "type_id": "recording_studio",
+    "address": "Servidão Antônio Cipriano Pereira, 201 - Itacorubi, Florianópolis - SC, 88034-280, Brazil",
+    "operating_hours": {
+      "friday": "Open 24 hours",
+      "saturday": "Open 24 hours",
+      "sunday": "Open 24 hours",
+      "monday": "Open 24 hours",
+      "tuesday": "Open 24 hours",
+      "wednesday": "Open 24 hours",
+      "thursday": "Open 24 hours"
+    },
+    "phone": "+55 48 98829-0964",
+    "website": "http://www.hdmusicstudio.com.br/",
+    "cidade": "Florianópolis"
+  },
+  {
+    "position": 12,
+    "title": "Charles Mafra Fotografia",
+    "place_id": "ChIJG2vLNm5H35QRydFCP_8vKXA",
+    "data_id": "0x94df476e36cb6b1b:0x70292fff3f42d1c9",
+    "data_cid": "8082043779617575369",
+    "gps_coordinates": {
+      "latitude": -27.1004547,
+      "longitude": -48.9180883
+    },
+    "rating": 5,
+    "reviews": 125,
+    "type": "Photographer",
+    "type_id": "photographer",
+    "address": "Edifício Carlos Wegner, R. Hercílio Luz, 30 - Sala 20 - Centro 1, Brusque - SC, 88350-300, Brazil",
+    "operating_hours": {
+      "friday": "8:30 AM–6 PM",
+      "saturday": "Closed",
+      "sunday": "Closed",
+      "monday": "8:30 AM–6 PM",
+      "tuesday": "8:30 AM–6 PM",
+      "wednesday": "8:30 AM–6 PM",
+      "thursday": "8:30 AM–6 PM"
+    },
+    "phone": "+55 47 98857-1673",
+    "website": "http://www.charlesmafra.com.br/",
+    "cidade": "Brusque"
+  },
+  {
+    "position": 11,
+    "title": "Café Maestro Productions",
+    "place_id": "ChIJ061gd5nL2JQRw66Tj8XN40w",
+    "data_id": "0x94d8cb997760add3:0x4ce3cdc58f93aec3",
+    "data_cid": "5540498214996913859",
+    "gps_coordinates": {
+      "latitude": -26.9338472,
+      "longitude": -48.671841099999995
+    },
+    "rating": 4.8,
+    "reviews": 122,
+    "type": "Recording studio",
+    "type_id": "recording_studio",
+    "address": "Rua Primo Uller Júnior, 234 - Ressacada, Itajaí - SC, 88307-450, Brazil",
+    "operating_hours": {
+      "friday": "10 AM–8 PM",
+      "saturday": "Closed",
+      "sunday": "Closed",
+      "monday": "10 AM–8 PM",
+      "tuesday": "10 AM–8 PM",
+      "wednesday": "10 AM–8 PM",
+      "thursday": "10 AM–8 PM"
+    },
+    "phone": "+55 47 99147-6016",
+    "website": "http://www.cafemaestro.com.br/",
+    "cidade": "Itajaí"
+  },
+  {
+    "position": 19,
+    "title": "Pin Up Studio Fotográfico",
+    "place_id": "ChIJBwM5qT85J5URJIgh_oAaHdI",
+    "data_id": "0x9527393fa9390307:0xd21d1a80fe218824",
+    "data_cid": "15140286663611222052",
+    "gps_coordinates": {
+      "latitude": -27.5954062,
+      "longitude": -48.5534118
+    },
+    "rating": 4.7,
+    "reviews": 119,
+    "type": "Photography studio",
+    "type_id": "photography_studio",
+    "address": "R. Felipe Schmidt, 390 - sala 201 - Centro, Florianópolis - SC, 88010-000, Brazil",
+    "operating_hours": {
+      "friday": "9 AM–12:30 PM, 2–6 PM",
+      "saturday": "Closed",
+      "sunday": "Closed",
+      "monday": "9 AM–12:30 PM, 2–6 PM",
+      "tuesday": "9 AM–12:30 PM, 2–6 PM",
+      "wednesday": "9 AM–12:30 PM, 2–6 PM",
+      "thursday": "9 AM–12:30 PM, 2–6 PM"
+    },
+    "phone": "+55 48 3025-5467",
+    "website": "https://instagram.com/pinupstudiofotografico",
+    "cidade": "Palhoça"
+  },
+  {
+    "position": 10,
+    "title": "Sttudio A Cabeleireiros",
+    "place_id": "ChIJX6zXDq-535QRIXFYVCBhU88",
+    "data_id": "0x94dfb9af0ed7ac5f:0xcf53612054587121",
+    "data_cid": "14939391180399997217",
+    "gps_coordinates": {
+      "latitude": -27.212638,
+      "longitude": -49.6417238
+    },
+    "rating": 4.8,
+    "reviews": 119,
+    "type": "Beauty salon",
+    "type_id": "beauty_salon",
+    "address": "R. Pres. Kennedy, 226 - Jardim América, Rio do Sul - SC, 89160-190, Brazil",
+    "operating_hours": "",
+    "phone": "+55 47 3521-1435",
+    "website": "https://www.facebook.com/sttudioacabeleireiros/",
+    "cidade": "Rio do Sul"
+  },
+  {
+    "position": 18,
+    "title": "Luciana Natalia Fotografias",
+    "place_id": "ChIJM45zLSC05JQRsofoRs0dQJY",
+    "data_id": "0x94e4b4202d738e33:0x96401dcd46e887b2",
+    "data_cid": "10826686271693817778",
+    "gps_coordinates": {
+      "latitude": -27.1187561,
+      "longitude": -52.615544299999996
+    },
+    "rating": 4.8,
+    "reviews": 118,
+    "type": "Photographer",
+    "type_id": "photographer",
+    "address": "Trav. João Elisbão da Luz - Palmital, Chapecó - SC, 89814-130, Brazil",
+    "operating_hours": "",
+    "phone": "+351 912 489 090",
+    "website": "http://www.luciananatalia.com.br/",
+    "cidade": "Chapecó"
+  },
+  {
+    "position": 19,
+    "title": "Foco Fotografias",
+    "place_id": "ChIJ28AAthu15JQR11VuHUiZaBY",
+    "data_id": "0x94e4b51bb600c0db:0x166899481d6e55d7",
+    "data_cid": "1614709001422788055",
+    "gps_coordinates": {
+      "latitude": -27.094003599999997,
+      "longitude": -52.674698899999996
+    },
+    "rating": 4.7,
+    "reviews": 117,
+    "type": "Portrait studio",
+    "type_id": "portrait_studio",
+    "address": "R. Jaguatirica, 76 - Efapi, Chapecó - SC, 89809-640, Brazil",
+    "operating_hours": {
+      "friday": "9 AM–12 PM, 1:30–6 PM",
+      "saturday": "8 AM–12 PM",
+      "sunday": "Closed",
+      "monday": "9 AM–12 PM, 1:30–6 PM",
+      "tuesday": "9 AM–12 PM, 1:30–6 PM",
+      "wednesday": "9 AM–12 PM, 1:30–6 PM",
+      "thursday": "9 AM–12 PM, 1:30–6 PM"
+    },
+    "phone": "+55 49 99158-5453",
+    "website": "",
+    "cidade": "Chapecó"
+  },
+  {
+    "position": 13,
+    "title": "PS Photoart Estúdio Fotográfico",
+    "place_id": "ChIJf9wXQoxH35QRLmb4dehtP1c",
+    "data_id": "0x94df478c4217dc7f:0x573f6de875f8662e",
+    "data_cid": "6286864450011555374",
+    "gps_coordinates": {
+      "latitude": -27.083103899999998,
+      "longitude": -48.9018527
+    },
+    "rating": 4.9,
+    "reviews": 116,
+    "type": "Photography studio",
+    "type_id": "photography_studio",
+    "address": "Ensaio Fotográfico Look Book, Foto Ecommerce Estúdio Fotográfico, Revelação de Fotos Foto 3x4, Fotógrafo de Casamento, Rua Sete de Setembro, 489 Fotógrafo, Santa Rita, Brusque - SC, 88352-000, Brazil",
+    "operating_hours": {
+      "friday": "Closed",
+      "saturday": "9 AM–5 PM",
+      "sunday": "9 AM–5 PM",
+      "monday": "Closed",
+      "tuesday": "Closed",
+      "wednesday": "Closed",
+      "thursday": "Closed"
+    },
+    "phone": "+55 47 98926-2019",
+    "website": "http://www.psphotoart.com.br/",
+    "cidade": "Brusque"
+  },
+  {
+    "position": 6,
+    "title": "Deh Concept | Barbearia e Salão de Beleza em Caçador",
+    "place_id": "ChIJifNxIhm15pQRquixApDKP7Y",
+    "data_id": "0x94e6b5192271f389:0xb63fca9002b1e8aa",
+    "data_cid": "13132437758304970922",
+    "gps_coordinates": {
+      "latitude": -26.7774206,
+      "longitude": -51.014313599999994
+    },
+    "rating": 5,
+    "reviews": 115,
+    "type": "Beauty salon",
+    "type_id": "beauty_salon",
+    "address": "Rua Campos Novos, 147 - Centro, Caçador - SC, 89500-073, Brazil",
+    "operating_hours": {
+      "friday": "9 AM–8 PM",
+      "saturday": "9 AM–4 PM",
+      "sunday": "Closed",
+      "monday": "Closed",
+      "tuesday": "9 AM–8 PM",
+      "wednesday": "9 AM–8 PM",
+      "thursday": "9 AM–8 PM"
+    },
+    "phone": "+55 49 99165-7317",
+    "website": "https://sites.appbarber.com.br/dehconcept",
+    "cidade": "Caçador"
+  },
+  {
+    "position": 9,
+    "title": "Ferreira e Maciel - Fotografia e Filme de Casamento e Família.",
+    "place_id": "ChIJeRkCmuUuIpURPSpfzhbV7-o",
+    "data_id": "0x95222ee59a021979:0xeaefd516ce5f2a3d",
+    "data_cid": "16928983818237323837",
+    "gps_coordinates": {
+      "latitude": -28.939397099999997,
+      "longitude": -49.4780617
+    },
+    "rating": 5,
+    "reviews": 115,
+    "type": "Portrait studio",
+    "type_id": "portrait_studio",
+    "address": "Av. Getúlio Vargas, 1001 - sala I - Urussanguinha, Araranguá - SC, 88900-000, Brazil",
+    "operating_hours": {
+      "friday": "8 AM–12 PM, 1:30–5:30 PM",
+      "saturday": "Closed",
+      "sunday": "Closed",
+      "monday": "8 AM–12 PM, 1:30–5:30 PM",
+      "tuesday": "8 AM–12 PM, 1:30–5:30 PM",
+      "wednesday": "8 AM–12 PM, 1:30–5:30 PM",
+      "thursday": "8 AM–12 PM, 1:30–5:30 PM"
+    },
+    "phone": "+55 48 99953-1363",
+    "website": "https://www.ferreiraemaciel.com.br/",
+    "cidade": "Araranguá"
+  },
+  {
+    "position": 1,
+    "title": "Studio 74",
+    "place_id": "ChIJo4yZpChIJ5URSkHS-l2SLyc",
+    "data_id": "0x95274828a4998ca3:0x272f925dfad2414a",
+    "data_cid": "2823636423722287434",
+    "gps_coordinates": {
+      "latitude": -27.582637199999997,
+      "longitude": -48.589453899999995
+    },
+    "rating": 4.8,
+    "reviews": 109,
+    "type": "Recording studio",
+    "type_id": "recording_studio",
+    "address": "R. Jorn. Rodolfo Eduardo Sulivan, 339 - Estreito, Florianópolis - SC, 88095-060, Brazil",
+    "operating_hours": {
+      "friday": "2 pm–12 am",
+      "saturday": "9 am–12 am",
+      "sunday": "Closed",
+      "monday": "2 pm–12 am",
+      "tuesday": "2 pm–12 am",
+      "wednesday": "2 pm–12 am",
+      "thursday": "2 pm–12 am"
+    },
+    "phone": "+55 48 99995-4243",
+    "website": "https://www.studiomusical74.com/",
+    "cidade": "Florianópolis"
+  },
+  {
+    "position": 15,
+    "title": "Foto Gilmar",
+    "place_id": "ChIJnzt5OZel2JQROdtknIH8a2U",
+    "data_id": "0x94d8a59739793b9f:0x656bfc819c64db39",
+    "data_cid": "7308212453943597881",
+    "gps_coordinates": {
+      "latitude": -27.1595947,
+      "longitude": -48.5418877
+    },
+    "rating": 4.9,
+    "reviews": 109,
+    "type": "Portrait studio",
+    "type_id": "portrait_studio",
+    "address": "R. Manoel Felipe da Silva Neto, 594 - Casa Verde - Centro, Porto Belo - SC, 88210-000, Brazil",
+    "operating_hours": {
+      "friday": "9–11:30 AM, 2–5 PM",
+      "saturday": "9 AM–12 PM",
+      "sunday": "Closed",
+      "monday": "9–11:30 AM, 2–5 PM",
+      "tuesday": "9–11:30 AM, 2–5 PM",
+      "wednesday": "9–11:30 AM, 2–5 PM",
+      "thursday": "9–11:30 AM, 2–5 PM"
+    },
+    "phone": "+55 47 99977-9181",
+    "website": "http://fotogilmar.com/?utm_source=gmb&utm_medium=referral",
+    "cidade": "Tijucas"
+  },
+  {
+    "position": 7,
+    "title": "Estúdio Dr. Amadeu | PODCAST & SNACKS",
+    "place_id": "ChIJw6Q6FhsZ35QRmfhJ2NCYbzI",
+    "data_id": "0x94df191b163aa4c3:0x326f98d0d849f899",
+    "data_cid": "3634291447060625561",
+    "gps_coordinates": {
+      "latitude": -26.9165331,
+      "longitude": -49.0711558
+    },
+    "rating": 5,
+    "reviews": 107,
+    "type": "Recording studio",
+    "type_id": "recording_studio",
+    "address": "R. Dr. Amadeu da Luz, 225 - Centro, Blumenau - SC, 89010-160, Brazil",
+    "operating_hours": {
+      "friday": "8 AM–10 PM",
+      "saturday": "Closed",
+      "sunday": "Closed",
+      "monday": "8 AM–10 PM",
+      "tuesday": "8 AM–10 PM",
+      "wednesday": "8 AM–10 PM",
+      "thursday": "8 AM–10 PM"
+    },
+    "phone": "+55 47 99271-8219",
+    "website": "https://estudiodramadeu.com/",
+    "cidade": "Blumenau"
+  },
+  {
+    "position": 8,
+    "title": "Evydência",
+    "place_id": "ChIJ29PZeuer2JQRjwiIjrQwL2w",
+    "data_id": "0x94d8abe77ad9d3db:0x6c2f30b48e88088f",
+    "data_cid": "7795503032045144207",
+    "gps_coordinates": {
+      "latitude": -27.24173,
+      "longitude": -48.646721
+    },
+    "rating": 4.7,
+    "reviews": 107,
+    "type": "Photography studio",
+    "type_id": "photography_studio",
+    "address": "R. Mauri Afonso da Silva, 892 - Universitário, Tijucas - SC, 88200-000, Brazil",
+    "operating_hours": {
+      "friday": "1:30–6 PM",
+      "saturday": "8:30–11 AM",
+      "sunday": "Closed",
+      "monday": "1:30–6 PM",
+      "tuesday": "1:30–6 PM",
+      "wednesday": "1:30–6 PM",
+      "thursday": "1:30–6 PM"
+    },
+    "phone": "+55 48 99642-5287",
+    "website": "https://evydencia.com/cadastro",
+    "cidade": "Tijucas"
+  },
+  {
+    "position": 20,
+    "title": "STUDIO L CONCEPT",
+    "place_id": "ChIJQUZfEH-05JQRwz_eqZqPAPw",
+    "data_id": "0x94e4b47f105f4641:0xfc008f9aa9de3fc3",
+    "data_cid": "18158671591995490243",
+    "gps_coordinates": {
+      "latitude": -27.11132,
+      "longitude": -52.616467
+    },
+    "rating": 4.8,
+    "reviews": 105,
+    "type": "Beauty salon",
+    "type_id": "beauty_salon",
+    "address": "R. Florianópolis, 371 - Centro, Chapecó - SC, 89814-200, Brazil",
+    "operating_hours": {
+      "friday": "8:30 AM–7 PM",
+      "saturday": "8:30 AM–5 PM",
+      "sunday": "Closed",
+      "monday": "Closed",
+      "tuesday": "8:30 AM–7 PM",
+      "wednesday": "8:30 AM–7 PM",
+      "thursday": "8:30 AM–7 PM"
+    },
+    "phone": "+55 49 3331-2242",
+    "website": "http://studiolconcept.com.br/",
+    "cidade": "Chapecó"
+  },
+  {
+    "position": 13,
+    "title": "Estúdio Alegrar - Fotografia",
+    "place_id": "ChIJ8Q-JBX_M2JQRx7rp270fjEA",
+    "data_id": "0x94d8cc7f05890ff1:0x408c1fbddbe9bac7",
+    "data_cid": "4651127415465687751",
+    "gps_coordinates": {
+      "latitude": -26.916919399999998,
+      "longitude": -48.675574
+    },
+    "rating": 4.8,
+    "reviews": 105,
+    "type": "Portrait studio",
+    "type_id": "portrait_studio",
+    "address": "Rua Manoel Anibal Pereira, 30 - Dom Bosco, Itajaí - SC, 88307-070, Brazil",
+    "operating_hours": {
+      "friday": "2–7 PM",
+      "saturday": "10 AM–12 PM",
+      "sunday": "Closed",
+      "monday": "2–7 PM",
+      "tuesday": "2–7 PM",
+      "wednesday": "2–7 PM",
+      "thursday": "2–7 PM"
+    },
+    "phone": "+55 47 99670-7704",
+    "website": "http://www.estudioalegrar.com.br/",
+    "cidade": "Balneário Camboriú"
+  },
+  {
+    "position": 18,
+    "title": "Cleópatra Carrere",
+    "place_id": "ChIJQTGuZgbL2JQRE4sK9Y7gaf8",
+    "data_id": "0x94d8cb0666ae3141:0xff69e08ef50a8b13",
+    "data_cid": "18404488256827329299",
+    "gps_coordinates": {
+      "latitude": -26.9736731,
+      "longitude": -48.638355999999995
+    },
+    "rating": 5,
+    "reviews": 104,
+    "type": "Portrait studio",
+    "type_id": "portrait_studio",
+    "address": "Edifício Galli Center, R. Arthur Max Doose, 183 - sala 1003 - Pioneiros, Balneário Camboriú - SC, 88331-085, Brazil",
+    "operating_hours": {
+      "friday": "8 AM–6 PM",
+      "saturday": "8 AM–4 PM",
+      "sunday": "Closed",
+      "monday": "8 AM–6 PM",
+      "tuesday": "8 AM–6 PM",
+      "wednesday": "8 AM–6 PM",
+      "thursday": "8 AM–6 PM"
+    },
+    "phone": "+55 47 99733-7647",
+    "website": "https://studiocleopatracarrere.myportfolio.com/",
+    "cidade": "Camboriú"
+  },
+  {
+    "position": 13,
+    "title": "Ana Flávia Fotografias",
+    "place_id": "ChIJfWo4DJL73pQRJKReWUG32fg",
+    "data_id": "0x94defb920c386a7d:0xf8d9b741595ea424",
+    "data_cid": "17931564882652472356",
+    "gps_coordinates": {
+      "latitude": -26.8148564,
+      "longitude": -49.268729099999995
+    },
+    "rating": 5,
+    "reviews": 101,
+    "type": "Photographer",
+    "type_id": "photographer",
+    "address": "R. Canadá, 226 - Das Nações, Timbó - SC, 89120-000, Brazil",
+    "operating_hours": {
+      "friday": "8 AM–6 PM",
+      "saturday": "8 AM–6 PM",
+      "sunday": "Closed",
+      "monday": "9 AM–6 PM",
+      "tuesday": "8 AM–6 PM",
+      "wednesday": "8 AM–6 PM",
+      "thursday": "8 AM–6 PM"
+    },
+    "phone": "+55 47 98855-5690",
+    "website": "http://www.anaflaviafotografafamilia.com.br/",
+    "cidade": "Indaial"
+  },
+  {
+    "position": 13,
+    "title": "Estúdio Amentar - fotografia de gestantes, newborn, bebês e famílias.",
+    "place_id": "ChIJG50So2y_3pQR6c8jHyKHcQo",
+    "data_id": "0x94debf6ca3129d1b:0xa7187221f23cfe9",
+    "data_cid": "752531193368661993",
+    "gps_coordinates": {
+      "latitude": -26.474209199999997,
+      "longitude": -48.994759699999996
+    },
+    "rating": 4.9,
+    "reviews": 100,
+    "type": "Portrait studio",
+    "type_id": "portrait_studio",
+    "address": "R. Gerônimo Correa, 375 - Centro, Guaramirim - SC, 89270-000, Brazil",
+    "operating_hours": {
+      "friday": "1:30–6 PM",
+      "saturday": "9 AM–12 PM",
+      "sunday": "Closed",
+      "monday": "1:30–6 PM",
+      "tuesday": "1:30–6 PM",
+      "wednesday": "1:30–6 PM",
+      "thursday": "1:30–6 PM"
+    },
+    "phone": "+55 47 98857-7356",
+    "website": "https://www.estudioamentar.com.br/",
+    "cidade": "Jaraguá do Sul"
+  },
+  {
+    "position": 6,
+    "title": "Estúdio Fotográfico Daiane Raupp",
+    "place_id": "ChIJOe1Ni52_3pQR10mu4xGc_dg",
+    "data_id": "0x94debf9d8b4ded39:0xd8fd9c11e3ae49d7",
+    "data_cid": "15635825081948457431",
+    "gps_coordinates": {
+      "latitude": -26.478832099999998,
+      "longitude": -49.0057902
+    },
+    "rating": 4.9,
+    "reviews": 98,
+    "type": "Portrait studio",
+    "type_id": "portrait_studio",
+    "address": "R. Henrique Friedemann, 554 - Centro, Guaramirim - SC, 89270-000, Brazil",
+    "operating_hours": {
+      "friday": "8:30 AM–12 PM, 1:30–6:30 PM",
+      "saturday": "8:30 AM–12 PM",
+      "sunday": "Closed",
+      "monday": "8:30 AM–12 PM, 1:30–6:30 PM",
+      "tuesday": "8:30 AM–12 PM, 1:30–6:30 PM",
+      "wednesday": "8:30 AM–12 PM, 1:30–6:30 PM",
+      "thursday": "8:30 AM–12 PM, 1:30–6:30 PM"
+    },
+    "phone": "+55 47 99944-0933",
+    "website": "http://www.daianerauppfotografia.com.br/",
+    "cidade": "Guaramirim"
+  },
+  {
+    "position": 1,
+    "title": "Bacca - Estúdio e Sonorização",
+    "place_id": "ChIJb8gN8P0b35QRDMEvaTgdVPs",
+    "data_id": "0x94df1bfdf00dc86f:0xfb541d38692fc10c",
+    "data_cid": "18110132129683718412",
+    "gps_coordinates": {
+      "latitude": -26.9275718,
+      "longitude": -49.1229526
+    },
+    "rating": 5,
+    "reviews": 97,
+    "type": "Recording studio",
+    "type_id": "recording_studio",
+    "address": "R. Freymundo Mette, 165 - Velha Central, Blumenau - SC, 89040-230, Brazil",
+    "operating_hours": {
+      "friday": "9 AM–10 PM",
+      "saturday": "9 AM–10 PM",
+      "sunday": "9:30 AM–10 PM",
+      "monday": "9 AM–10 PM",
+      "tuesday": "9 AM–10 PM",
+      "wednesday": "9 AM–10 PM",
+      "thursday": "9 AM–10 PM"
+    },
+    "phone": "+55 47 99646-2251",
+    "website": "https://www.facebook.com/baccaestudio",
+    "cidade": "Blumenau"
+  },
+  {
+    "position": 6,
+    "title": "Juliane Müller Fotografia",
+    "place_id": "ChIJ9S7vpbPV3ZQR7XoyIoRBaKI",
+    "data_id": "0x94ddd5b3a5ef2ef5:0xa268418422327aed",
+    "data_cid": "11702675667487455981",
+    "gps_coordinates": {
+      "latitude": -26.249942599999997,
+      "longitude": -49.3835054
+    },
+    "rating": 5,
+    "reviews": 97,
+    "type": "Photography studio",
+    "type_id": "photography_studio",
+    "address": "R. Felipe Schmidt - Centro, São Bento do Sul - SC, 89280-178, Brazil",
+    "operating_hours": "",
+    "phone": "+55 47 99749-7775",
+    "website": "https://www.instagram.com/juliemller_ph?igsh=cGYxMjR4cjF0YWQ1&utm_source=qr",
+    "cidade": "São Bento do Sul"
+  },
+  {
+    "position": 9,
+    "title": "Estúdio Kalina Photoboutique",
+    "place_id": "ChIJqbaBEBuw3pQRbELtIBHVQPI",
+    "data_id": "0x94deb01b1081b6a9:0xf240d51120ed426c",
+    "data_cid": "17456186425231622764",
+    "gps_coordinates": {
+      "latitude": -26.2931113,
+      "longitude": -48.846595
+    },
+    "rating": 4.9,
+    "reviews": 96,
+    "type": "Portrait studio",
+    "type_id": "portrait_studio",
+    "address": "Al. Rolf Colin, 138 - Sala 1001 - América, Joinville - SC, 89218-055, Brazil",
+    "operating_hours": {
+      "friday": "9 AM–5 PM",
+      "saturday": "Closed",
+      "sunday": "Closed",
+      "monday": "9 AM–5 PM",
+      "tuesday": "9 AM–5 PM",
+      "wednesday": "9 AM–5 PM",
+      "thursday": "9 AM–5 PM"
+    },
+    "phone": "+55 47 98814-3728",
+    "website": "http://www.estudiokalina.com/",
+    "cidade": "Joinville"
+  },
+  {
+    "position": 11,
+    "title": "DNZ Estúdio Fotográfico | Danilo Zonta Fotografias",
+    "place_id": "ChIJCwEL6Lq25JQRmukqIu5vn_w",
+    "data_id": "0x94e4b6bae80b010b:0xfc9f6fee222ae99a",
+    "data_cid": "18203391287420971418",
+    "gps_coordinates": {
+      "latitude": -27.0999759,
+      "longitude": -52.6047997
+    },
+    "rating": 5,
+    "reviews": 95,
+    "type": "Photographer",
+    "type_id": "photographer",
+    "address": "R. Oswaldo Aranha, 283 E - Maria Goretti, Chapecó - SC, 89801-422, Brazil",
+    "operating_hours": {
+      "friday": "9 AM–6 PM",
+      "saturday": "Closed",
+      "sunday": "Closed",
+      "monday": "9 AM–6 PM",
+      "tuesday": "9 AM–6 PM",
+      "wednesday": "9 AM–6 PM",
+      "thursday": "9 AM–6 PM"
+    },
+    "phone": "+55 49 99834-8699",
+    "website": "http://www.danilozonta.com.br/",
+    "cidade": "Chapecó"
+  }
+]
